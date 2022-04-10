@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+<script>
+
+function mostra(frase) {document.write(frase)};
+
+var peso = parseInt(prompt("ola! digite aqui o seu peso: "));
+
+if (peso<50) {prompt("voce mora na Africa? ")};
+
+if("sim") {document.write("ok kkkkkkk")};
+if("não") {document.write("sem piada com a Africa ok? ")};
+
+if (peso>=50) {mostra("voce esta muito magro");
+};
+
+if (peso>=67) {mostra("voce esta na media")};
+
+if (peso>=90) {mostra("voce esta gordo");
+};
+
+
+
+</script>
+
+</body>
+
+</html>
