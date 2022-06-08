@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf8>
+
+</head>
+  <body>
+  	// aqui vai o meu inicio
+    <h1>aprendendo a linguagem PHP!</h1>
+
+    <?php
+
+    // hello world em PHP
+
+    $string = "hello world"
+      echo "$string;
+
+    // ou com concatenação
+
+    echo "olá," . "mundo";
+
+    // criando constante e mostrando ela
+
+    define("constante","3,141595");
+    echo constante
+
+    // criando array e mostrando ela
+
+    $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);
+
+    echo $minhaArray["lugar"];
+    echo $minhaArray["2+2=5"];
+
+    // convertendo variaveis (type casting)
+    
+    $SouUmaVariavel = "olá";
+    $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
+    echo (int)$primeiraConverção;
+
+    $SouUmaVariavel2 = "hello"; 
+    $segundaConverção = (bool) $SouUmaVariavel2; // converte para boolean
+    echo (bool)$segundaConverção;
+
+    $SouUmaVariavel3 = "ciao"
+    $terceiraConverção = (array) $SouUmaVariavel3; 
+     echo (array) $SouUmaVariavel3;
+
+     // usando os operadores
+
+    $x = 2;
+    $y = 8;
+
+    $c = $x + $y; // soma as duas variaveis
+    
+    $b = $c / $x; // divide as duas variaveis dando o resultado 5 
+    
+    $d = $x * $y; // multiplica as duas variaveis dando o resultado 16
+    
+    $t = $d - $x; // subtrai dando o resultado 8
+
+    // condição if e else
+
+   $idade = 50;
+
+  if($idade > 60) {
+    echo "Você esta muito velho";
+  } else {
+    echo "ainda é novo";
+  }
+
+$nome = "evandro";
+
+if($nome == "osvaldo") {
+  echo "ola osvaldo";
+} elseif ($nome == "pedro") {
+  echo "ola pedro";
+} elseif ($nome == "carlos") {
+  echo "ola carlos";
+} else {
+  echo "E ae $nome";
+
+$nome = 'Fulano';
+
+  switch($nome) {
+    case 'Fulano':
+      echo 'E ai Fulano!';
+      break;
+
+    case 'Sicrano':
+      echo 'E ai Sicrano!';
+      break;
+
+    case 'Beltrano':
+      echo 'E ai Beltrano!';
+      break;
+
+    default:
+      echo 'Qual é o seu nome?';
+      break;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ?>
+  </body>
+</html>
