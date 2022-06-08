@@ -17,33 +17,33 @@
 
     // ou com concatenação
 
-    echo "olá," . "mundo";
+      echo "olá," . "mundo";
 
     // criando constante e mostrando ela
 
     define("constante","3,141595");
-    echo constante
+     echo constante
 
     // criando array e mostrando ela
 
     $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);
 
-    echo $minhaArray["lugar"];
-    echo $minhaArray["2+2=5"];
+      echo $minhaArray["lugar"];
+      echo $minhaArray["2+2=5"];
 
     // convertendo variaveis (type casting)
     
     $SouUmaVariavel = "olá";
-    $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
-    echo (int)$primeiraConverção;
+     $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
+      echo (int)$primeiraConverção;
 
     $SouUmaVariavel2 = "hello"; 
-    $segundaConverção = (bool) $SouUmaVariavel2; // converte para boolean
-    echo (bool)$segundaConverção;
+     $segundaConverção = (bool) $SouUmaVariavel2; // converte para boolean
+      echo (bool)$segundaConverção;
 
     $SouUmaVariavel3 = "ciao"
-    $terceiraConverção = (array) $SouUmaVariavel3; 
-     echo (array) $SouUmaVariavel3;
+     $terceiraConverção = (array) $SouUmaVariavel3; 
+       echo (array) $SouUmaVariavel3;
 
      // usando os operadores
 
@@ -60,28 +60,29 @@
 
     // condição if e else
 
-   $idade = 50;
+    $idade = 50;
 
-  if($idade > 60) {
-    echo "Você esta muito velho";
+    if($idade > 60) {
+     echo "Você esta muito velho";
   } else {
-    echo "ainda é novo";
+     echo "ainda é novo";
   }
 
-$nome = "evandro";
+    $nome = "evandro";
 
-if($nome == "osvaldo") {
-  echo "ola osvaldo";
-} elseif ($nome == "pedro") {
-  echo "ola pedro";
-} elseif ($nome == "carlos") {
-  echo "ola carlos";
-} else {
-  echo "E ae $nome";
+    if($nome == "osvaldo") {
+     echo "ola osvaldo";
+    } elseif ($nome == "pedro") {
+     echo "ola pedro";
+    } elseif ($nome == "carlos") {
+     echo "ola carlos";
+    } else {
+     echo "E ae $nome";
 
-$nome = 'Fulano';
+// condição com switch 
+   $nome = 'Fulano';
 
-  switch($nome) {
+   switch($nome) {
     case 'Fulano':
       echo 'E ai Fulano!';
       break;
