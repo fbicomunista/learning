@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset= utf-8 >
+    <meta charset= utf-8 >
 </head>
-  <body>
-  	// Aqui vai o meu inicio nele
+<body>
+ 
+	// Aqui vai o meu inicio nele
     <h1>Aprendendo a linguagem PHP!</h1>
 
     <?php
@@ -18,10 +19,8 @@
 
 
     define("constante","3,141595");  // criando constante e mostrando ela
-    echo constante;  // ira mostrar 3,141595
+      echo constante;  // ira mostrar 3,141595
 
-
-    
 
     $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
 
@@ -55,6 +54,7 @@
     $d = $x * $y; // multiplica as duas variaveis dando o resultado 16
     
     $t = $d - $x; // subtrai dando o resultado 8
+
 
     // condição if e else
 
