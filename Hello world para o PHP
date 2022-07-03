@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset=utf8>
-
+	<meta charset= utf-8 >
 </head>
   <body>
-  	// aqui vai o meu inicio
-    <h1>aprendendo a linguagem PHP!</h1>
+  	// Aqui vai o meu inicio nele
+    <h1>Aprendendo a linguagem PHP!</h1>
 
     <?php
 
-    // hello world em PHP
+       // hello world em PHP
 
-    $string = "hello world" // para criar uma variavel, se usa o sinal de $ antes do nome dela
+    $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
     
-      echo "$string; // ira mostrar a variavel $string
-      echo "olá," ."mundo"; // ou com concatenação
- 
+      echo "$string;  // ira mostrar a variavel $string
+      echo "olá," ."mundo";  // ou com concatenação
 
-      
 
-    // criando constante e mostrando ela
+    define("constante","3,141595");  // criando constante e mostrando ela
+    echo constante;  // ira mostrar 3,141595
 
-    define("constante","3,141595");
-     echo constante
 
-    // criando array e mostrando ela
+    
 
-    $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);
+    $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
 
       echo $minhaArray["lugar"];
       echo $minhaArray["2+2=5"];
 
-    // convertendo variaveis (type casting)
+   
+      // convertendo variaveis (type casting)
     
     $SouUmaVariavel = "olá";
      $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
