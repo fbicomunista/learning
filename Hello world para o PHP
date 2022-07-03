@@ -12,12 +12,13 @@
 
     // hello world em PHP
 
-    $string = "hello world"
-      echo "$string;
+    $string = "hello world" // para criar uma variavel, se usa o sinal de $ antes do nome dela
+    
+      echo "$string; // ira mostrar a variavel $string
+      echo "olá," ."mundo"; // ou com concatenação
+ 
 
-    // ou com concatenação
-
-      echo "olá," . "mundo";
+      
 
     // criando constante e mostrando ela
 
