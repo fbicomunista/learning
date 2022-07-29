@@ -1,0 +1,275 @@
+
+
+
+existem 12 colunas maximas que se podem colocar no boostrap
+
+row = linha que define estrutura fica (pixel)
+row-fluid = linha que define estrutura fluida (porcentagem)
+
+
+
+
+  div.row > div.span8 + div.span4 # cria uma linha com 8 coluna a mais e
+  4 colunas usando o operador + para somar 
+
+
+
+
+
+<div class="row">
+  <div class="span 8">span 8</div>
+  <div class="span 4">span 4</div>
+</div> # essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
+
+
+
+<div class="conteiner-fluid"></div>
+  <div calss="row-fluid"></div>
+  <div class="span 7 bloco1">span 8</div>
+  <div class="span 3 offset2 bloco2">span</div>
+</div> # 
+
+
+<p class="lead">Olá mundo</p> # o conteudo da tag ira se sobre sair em comparação com o restante das outras fontes
+<p class="well">Olá mundo</p> # o conteudo da tag ira ficar em uma caixa de citação  
+
+
+<ul class="unstyled">
+	<li> Menu 1 </li>
+	<li> Menu 2 </li>
+	<li> Menu 3 </li>
+</ul> # retira os bullets (bolinhas de marcação) da lista não ordenada
+
+
+<ol class="inline">
+	<li> Menu 1 </li>
+	<li> Menu 2 </li>
+	<li> Menu 3 </li>
+</ol> # coloca todos os elementos dentro dessa tabela em linha
+
+
+
+<dl class="dl-horizontal">
+		 <dd> Item 1 </dd>
+	<dt> descrição da lista </dt>
+		 <dd> Item 2 </dd>
+	<dt> descrição da lista </dt>
+		 <dd> Item 3 </dd>
+	
+</dl> # cria uma lista descritiva, muito parecida com um dicionario ao centro
+
+	<table class="table table-striped (ou table-hover) table-condensed table-bordered">
+		<caption> Aprovado e reprovados </caption>
+		<thead>
+		<tr>
+			<th> Numero </th>
+			<th> Nome </th>
+			<th> Nota </th>
+			<th> Situação </th>
+		</tr>	
+		</thead>
+	<tbody>
+		<tr class="sucess">
+			<td> 01 </td>
+			<td> Ana Maria </td>
+			<td> 9.0 </td>
+			<td> Aprovado </td> # vai deixar essa linha da tabela em verde
+
+		</tr>
+		<tr class="sucess">
+			<td> 02 </td>
+			<td> João Vitor </td>
+			<td> 8.5 </td>
+			<td> Aprovado </td> 
+        </tr>
+        <tr class="warning">
+			<td> 03 </td>
+			<td> Alanna Ferraz </td>
+			<td> 6.0 </td>
+			<td> Recuperação </td> # vai deixar essa linha da tabela em amarelo
+		</tr>
+		<tr class="error">
+			<td> 04 </td>
+			<td> José Henrique </td>
+			<td> 5.5 </td>
+			<td> Pendente </td> # vai deixar essa linha da tabela em vermelho
+		</tr>
+		<tr class="info">
+			<td> 04 <5td>
+			<td> Maria Clara </td>
+			<td> 4.0 </td>
+			<td> Pendente </td> # vai deixar essa linha da tabela em azul
+    </tr>
+
+		</tr>
+	</tbody>
+	</table> # 
+
+
+ <form action="" type="text">
+   	<input type="text" class="input-mini">
+    <input type="text" class="input-small">
+    <input type="text" class="input-medium">
+    <input type="text" class="input-large">
+		<input type="text" class="input-xlarge">
+	  <input type="text" class="input-xxlarge">
+  </form> # todos esses atributos iram configurar um tamano pré definido de input
+
+  <div>
+    <input type="text" class="span12"><br> # o input dera o tamanho de 12 colunas
+  </div>
+  <div>
+    <input type="text" class="span8"><br> # aqui o input tera o tamanho de 8 colunas
+  </div>
+
+  <div class="controls constrols-row">
+    <input type="text" class="span2"><br>
+    <input type="text" class="span3">
+  </div> # caso for preciso colocar dois inputs numa mesma linha, pode se usar o atributo "constrols constrols-row"
+ </form>
+
+
+<form action="" class="form-search">
+	<input type="text" class="input-me search-query"></input>
+	<button class="btn">Busca</button>
+</form> # cria um input arrendondado
+
+
+<form action="" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">email"></label>
+		<div class="controls">
+			<input type="text" id="inputemail">
+		</div>
+
+<form action="" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">email"></label>
+		<div class="controls">
+			<input type="text" id="inputpassword">
+		</div>
+<button class="btn">entrar</button> # cria dois formularios um de email e outro de senha horizondais
+
+
+  <input type="text" class="input-small" placeholder="email">	
+	<input type="text" class="input-small" placeholder="senha">
+  <button class="btn">Entrar</button>button>
+
+
+
+<div class="controls input-prepend">
+	<span class="add-on">@</span>
+	<input type="text" class="span5" id="prependinput" placeholder="nome de usuario">
+</div> # coloca o simbolo de @ como um icone antes do formulario
+
+
+<form action=""></form>
+<div class="controls input-prepend">
+	<input type="text" class="span4">
+
+</div>
+
+Cores de texto:
+
+text-muted # cinza
+text-primary # azul escuro
+text-success # verde
+text-info  # azul claro
+text-warning # amarelo
+text-danger # vermelho
+text-secondary # cinza 
+text-white # branco
+text-dark # preto
+text-body(cor do corpo padrão/frequentemente preto)
+text-light
+text-black-50 # define texto preto e com 50% de opacidade para texto
+text-white-50 # define texto branco e com 50% de opacidade para texto
+
+
+Cores de fundo:
+
+bg-primary
+bg-success
+bg-info
+bg-warning
+bg-danger
+bg-secondary
+bg-dark
+bg-light
+
+
+.pt-5 utilitários de espaçamento, seu significado é (adicionar um preenchimento superior grande) 
+.table # classe que adiciona estilo básico de tabela
+.table-striped # classe adiciona listras de zebra a uma tabela
+.table-bordered # classe adiciona bordas em todos os lados da tabela e células 
+.table-hover # classe adiciona um efeito de foco (cor de fundo cinza) nas linhas da tabela
+.table-dark # classe adiciona um fundo preto a tabela
+.table-dark e .table-striped # classes que criam um mesa escura e listrada
+.table-borderless # classe que remove as bordas da tabela
+.table-responsive # classe adiciona uma barra de rolagem a tabela quando necessário (quando é muito grande horizontalmente)
+.rounded # classe adiciona cantos arrendondados a uma imagem
+.rounded-circle # classe molda a imagem em um círculo
+.img-thumbnail # classe molda a imagem em uma miniatura (com borda)
+.mx-auto # centraliza uma imagem adicionando as classes utilitarias (margin:auto)
+.d-block # centraliza uma imagem adicionando as classes utilitarias (display:block) 
+.img-fluid # 
+.alert-success(info, warning, danger, primary, secondary, light, dark) #  
+.alert-link # 
+.alert-dismissible # 
+class="btn-close" # 
+data-bs-dismiss="alert"
+.fade show # 
+.btn-lg # 
+.btn-sm # 
+."btn btn-outline primary"
+.d-grid # cria um botão de nível de bloco que abrange toda a largura do elemento pai
+.gap-* # controla os espaços dos botoes de nivel de blocos
+.active # 
+disabled ou .disabled (para <a>) #
+rounded-pill # classe para deixar os emblemas mais redonsdos
+.progress # cria uma barra de progresso que ira ser prenchida ao decorrer da conclusão
+.progress-bar # classe filha/o do elemento com classe "progress"
+.progress-bar-striped
+.progress-bar-animated
+.pagination # 
+.page-item # 
+.spinner-border-sm text-muted(text-primary, text-success, text-info, text-warning, text-danger, text-secondary, text-dark, text-light)
+.breadcrumb #
+.breadcrump-item # 
+.list-group # 
+.list-group-item # 
+.list-group-flush # remove algumas bordas e cantos arredondados
+.list-group-numbered # cria itens de uma lista com numeros na frente deles
+.list-group-horizontal # 
+.card # 
+.card-body # 
+.card-header # 
+.card-footer # 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+
+. - seleciona qualquer caractere exceto nova linha
+\n - quebra de linha
+- - começa selecionando todos os caracteres do elemento da esquerda 
+até o da direita
+[A-z0-9] - ira selecionar todas as letras e numeros
+^ - dentro de um [] faz uma negação da classe criada
+| - ira pegar o valor da esquerda e/ou da direita
+^ - se usado sem as [] significara que o elemento esta no inicio da 
+REGEX
+$ - se usado sem as [] significara que o elemento esta no final da 
+linha
+(?i) - que ira achar qualquer elemento ignorando as letras maiuscula 
+ou miniscula do elemento
+\A - é usado no inicio de uma frase em REGEX ira indicar o inicio da 
+expressão regular ( se tiver mais de uma linha ela não ira abrir as 
+proximas frases)
+\Z - se usado no final de uma frase em REGEX ira indicar o final da 
+expressão regular ( se tiver mais de uma linha ela não ira fechar)
+(?#) - Adiciona um comentário
+(?=) - casa esse REGEX com qualquer outra frase que contenha ele (?! 
+é a sua negação)
+[] - com os conjuntos dizemos a regex que uma determinada casa pode 
+ter diversos valores
+
+m - multilinha, lida com caracteres de inicio e fim ao operar em múltiplas linhas
+g - indicar achar todas as ocorrências da regex
+i - ignora case sensitive
+? - zero ou uma vez devem satisfazer aquela sentença
+* - zero ou mais vezes devem satisfazer aquela sentença
++ - uma ou mais vezes devem satisfazer aquela sentença
+
+
+
+{n} - exatamente n vezes
+{n,} - no mínimo n vezes
+{n, n} - no mínimo n+1 vezes, no máximo m vezes
+
+
+
+^s/chain\s$
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+
+CREATE EXTENSION adminpack; # ira criar um pacote de 
+administração 
+
+apt-get update # ira atualizar a lista de repositorios
+
+apt-get install postgresql postgresql-contrib # ira 
+baixar os arquivos
+
+app-get install phppgadmin # ira baixar o bacote 
+phppgadmin  
+
+sudo -u postgres psql postgres # ira entrar no prompt 
+do postgressql propriamente dito
+
+sudo -u postgres createuser -D -A -P fabio # criou um 
+usuario com o nome de Fabio
+
+sudo -u postgres createdb -O fabio dbTeste # criei um 
+banco de dados chamado "dbTeste" do usuario Fabio
+
+sudo -i -u postgres # ira logar como usuario "postgres"
+
+psqp --version # mostra qual é a versão do postgres instalada
+
+psqp -- help # mostra uma lista de comando do psql
+
+\password postgres # ao digitar password e o nome do 
+usuario ele ira pedir uma nova senha e depois fazer o 
+login
+
+\connect dbTeste # ira se conectar a base de dados 
+Teste
+
+\q # sai do postgres
+
+\l # lista todos os bancos de dados existentes
+
+\h # mostra todos os comando para manipulacão de 
+dados mySQL disponiveis
+
+\? # ira mostrar comando do postgresql
+
+\du # mostra todos os usuarios disponiveis
+
+\c template1 # ira mudar o banco de dados 
+selecionado para template1
+
+\d # mostra quantas relaçoes (tabelas) entre banco 
+de dados existe
+
+\d$ # mostra as tabelas administrativa internas
+
+\! # ira sair dos comando postgres e voltar aos 
+comandos do terminal
+
+which psql # ira dizer em qual diretorio o psql esta 
+instalado (exclusivo linux)
+
+drop database  # exclui a base de dados
+
+drop user fabio # ira excluir o usuario fabio
+
+vi /etc/postgresql/9.1/main/postsql.conf # entra no 
+arquivo de configuração do postgresql
+
+service postgreal restart # reinicia o postgresql
+
+vi /etc/apache2/conf.d/phppgadmin # ira para configuar 
+
+service postgresql restart # reinicia todas as configuraçoes do postgres
+
+\connect dbTeste # ira se conectar a qualquer base de dados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
