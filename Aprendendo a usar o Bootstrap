@@ -1,44 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = utf-8>
+</head>
+<body>
+
+<style>
+
+	@ O Boostrap funciona essencialmente no atributo class do CSS, 
+	  existem 12 colunas maximas que se podem colocar no boostrap
+
+   @ row = linha que define estrutura fica (pixel)
+    
+   @ row-fluid = linha que define estrutura fluida (porcentagem)
 
 
+   @ por exemplo:
+   
+   
+   # <div class = "div.row > div.span8 + div.span4" </div>
 
-existem 12 colunas maximas que se podem colocar no boostrap
-
-row = linha que define estrutura fica (pixel)
-row-fluid = linha que define estrutura fluida (porcentagem)
-
-
-
-
-  div.row > div.span8 + div.span4 # cria uma linha com 8 coluna a mais e
-  4 colunas usando o operador + para somar 
+   # <div class="row">
+   # <div class="span 8">span 8</div>
+   # <div class="span 4">span 4</div>
+   # </div> # essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
 
 
+   # <div class="conteiner-fluid"></div>
+   # <div calss="row-fluid"></div>
+   # <div class="span 7 bloco1">span 8</div>
+   # <div class="span 3 offset2 bloco2">span</div>
+   # </div> # 
 
 
-
-<div class="row">
-  <div class="span 8">span 8</div>
-  <div class="span 4">span 4</div>
-</div> # essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
+   # <p class="lead">Olá mundo</p> # o conteudo da tag ira se sobre sair em comparação com o restante das outras fontes
+   # <p class="well">Olá mundo</p> # o conteudo da tag ira ficar em uma caixa de citação  
 
 
-
-<div class="conteiner-fluid"></div>
-  <div calss="row-fluid"></div>
-  <div class="span 7 bloco1">span 8</div>
-  <div class="span 3 offset2 bloco2">span</div>
-</div> # 
-
-
-<p class="lead">Olá mundo</p> # o conteudo da tag ira se sobre sair em comparação com o restante das outras fontes
-<p class="well">Olá mundo</p> # o conteudo da tag ira ficar em uma caixa de citação  
-
-
-<ul class="unstyled">
-	<li> Menu 1 </li>
-	<li> Menu 2 </li>
-	<li> Menu 3 </li>
-</ul> # retira os bullets (bolinhas de marcação) da lista não ordenada
+   # <ul class="unstyled">
+       <li> Menu 1 </li>
+       <li> Menu 2 </li>
+       <li> Menu 3 </li>
+      </ul> # retira os bullets (bolinhas de marcação) da lista não ordenada
 
 
 <ol class="inline">
@@ -268,7 +271,8 @@ rounded-pill # classe para deixar os emblemas mais redonsdos
 
 
 
-
+</body>
+</style>
 
 
 
