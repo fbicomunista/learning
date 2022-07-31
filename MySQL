@@ -1,9 +1,14 @@
 
-create database "database" // cria uma nova base de dados
-create table "tabela" { } // cria uma nova tabela
-use "tabela" // seleciona uma tabela 
-desc "tabela" // descreve a tabela 
-create table pessoas IF NOT EXIST UNIQUE{
+create database " " # cria uma nova base de dados com o nome passado entre os parenteses
+
+create table " " { } # cria uma nova tabela com o nome passado entre os parenteses
+
+use " " ## seleciona uma tabela com o nome passado entre os parenteses
+
+desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado
+
+create table pessoas IF NOT EXIST UNIQUE {
+
   default character set utf8
   default collate utf8_general_ci
   id int NOT NULL, AUTO_INCREMENT,
