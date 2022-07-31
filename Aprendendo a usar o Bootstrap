@@ -7,8 +7,9 @@
 
 <style>
 
-	@ O Boostrap funciona essencialmente no atributo class do CSS, 
-	  existem 12 colunas maximas que se podem colocar no boostrap
+	% O Boostrap funciona essencialmente no atributo class do CSS, 
+	  existem 12 colunas maximas que se podem colocar no boostrap e varias alteraçoes adicionais
+
 
    @ row = linha que define estrutura fica (pixel)
     
@@ -16,69 +17,72 @@
 
 
    @ por exemplo:
-   
-   
-   # <div class = "div.row > div.span8 + div.span4" </div>
+   @ <div class = "div.row > div.span8 + div.span4" </div>
 
-   # <div class="row">
-   # <div class="span 8">span 8</div>
+   @ <div class="row">
+   
+   @ <div class="span 8">span 8</div>
    # <div class="span 4">span 4</div>
-   # </div> # essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
+   
+   # </div> ## essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
 
 
-   # <div class="conteiner-fluid"></div>
-   # <div calss="row-fluid"></div>
-   # <div class="span 7 bloco1">span 8</div>
-   # <div class="span 3 offset2 bloco2">span</div>
-   # </div> # 
+   @ <div class="conteiner-fluid"></div>
+   @ <div calss="row-fluid"></div>
+   @ <div class="span 7 bloco1">span 8</div>
+   @ <div class="span 3 offset2 bloco2">span</div>
+      
 
 
-   # <p class="lead">Olá mundo</p> # o conteudo da tag ira se sobre sair em comparação com o restante das outras fontes
-   # <p class="well">Olá mundo</p> # o conteudo da tag ira ficar em uma caixa de citação  
+   @ <p class="lead">Olá mundo</p> ## o conteudo da tag ira se sobre sair em comparação com o restante das outras fontes
+   @ <p class="well">Olá mundo</p> ## o conteudo da tag ira ficar em uma caixa de citação  
 
 
-   # <ul class="unstyled">
+   @ <ul class="unstyled">
        <li> Menu 1 </li>
        <li> Menu 2 </li>
        <li> Menu 3 </li>
-      </ul> # retira os bullets (bolinhas de marcação) da lista não ordenada
+     </ul> ## retira os bullets (bolinhas de marcação) da lista não ordenada
 
 
-<ol class="inline">
-	<li> Menu 1 </li>
-	<li> Menu 2 </li>
-	<li> Menu 3 </li>
-</ol> # coloca todos os elementos dentro dessa tabela em linha
+     <ol class="inline">
+       <li> Menu 1 </li>
+       <li> Menu 2 </li> 
+       <li> Menu 3 </li>
+     </ol> ## coloca todos os elementos dentro dessa tabela em linha
 
 
 
-<dl class="dl-horizontal">
-		 <dd> Item 1 </dd>
-	<dt> descrição da lista </dt>
-		 <dd> Item 2 </dd>
-	<dt> descrição da lista </dt>
-		 <dd> Item 3 </dd>
+     <dl class="dl-horizontal">
+       <dd> Item 1 </dd>
+        <dt> descrição da lista </dt    
+       <dd> Item 2 </dd>
+	<dt> descrição da lista </dt>   
 	
-</dl> # cria uma lista descritiva, muito parecida com um dicionario ao centro
+	
+    @ </dl> ## cria uma lista descritiva, muito parecida com um dicionario ao centro
 
-	<table class="table table-striped (ou table-hover) table-condensed table-bordered">
-		<caption> Aprovado e reprovados </caption>
-		<thead>
-		<tr>
-			<th> Numero </th>
-			<th> Nome </th>
-			<th> Nota </th>
-			<th> Situação </th>
-		</tr>	
-		</thead>
-	<tbody>
-		<tr class="sucess">
-			<td> 01 </td>
-			<td> Ana Maria </td>
-			<td> 9.0 </td>
-			<td> Aprovado </td> # vai deixar essa linha da tabela em verde
-
-		</tr>
+     # <table class="table table-striped (ou table-hover) table-condensed table-bordered">
+	<caption> Aprovado e reprovados </caption>
+	 <thead>
+	  <tr>
+	   <th> Numero </th>
+	    <th> Nome </th>
+	    <th> Nota </th>
+	    <th> Situação </th>
+	   </tr>	
+          </thead>
+	  
+	  
+      @ <tbody>
+	  <tr class="sucess">
+	   <td> 01 </td>
+	   <td> Ana Maria </td>
+	   <td> 9.0 </td>
+	   <td> Aprovado </td> # vai deixar essa linha da tabela em verde
+	  </tr>
+	  
+	  
 		<tr class="sucess">
 			<td> 02 </td>
 			<td> João Vitor </td>
