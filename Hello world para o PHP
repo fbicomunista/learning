@@ -9,14 +9,13 @@
 <h1>Aprendendo a linguagem PHP!</h1>
 
 	
- 	Bloco de estudos da linguagem python
+ 	Bem vindo ao meu bloco de estudos da linguagem PHP:
 
     <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
     
-    
-
      $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
      $carro = "Sou um carro" // criei a variavel carro que contem uma string
+     $umNumero = 5 // criei a variavel umNumero que contem um tipo number dentro dela
     
     
     $meuInicio = "Hello World!" // hello world em PHP
