@@ -1,7 +1,12 @@
 
-create database " " # cria uma nova base de dados com o nome passado entre os parenteses
+   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em JavaScript) é a "mãe" das linguagens de exploração de base de dados para manipulação dos dados, se usa comandos basicos e atributos extras que seram ensinados logo abaixo
 
-create table " " { } # cria uma nova tabela com o nome passado entre os parenteses
+
+
+
+create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
+
+create table " " { } ## cria uma nova tabela com o nome passado entre os parenteses
 
 use " " ## seleciona uma tabela com o nome passado entre os parenteses
 
@@ -12,7 +17,7 @@ create table pessoas IF NOT EXIST UNIQUE { ## cria uma nova tabela se essa ainda
   default character set utf8
   default collate utf8_general_ci ## duas linhas de codigo que servem para definir a formatação uft - 8 
   
-  id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria, NOR NUll significa "se a coluna/tabela não estiver vazia" e AUTO_INCREMENT significa "ira ser incrementado 1 a mais  
+  id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria, INT significa "inteiro" NOR NUll significa "se a coluna/tabela não estiver vazia" e AUTO_INCREMENT significa "ira ser incrementado 1 a mais  
   nome int UNSIGNED NOT NULL,
  "nascimento" date,
   sexo enum("M","F"),
