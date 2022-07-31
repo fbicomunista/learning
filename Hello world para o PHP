@@ -26,13 +26,9 @@
      echo $string;  // ira mostrar a variavel $string
      echo "olá," ."mundo";  // ou com concatenação
       
-     
-      
-      
-
-
-    define("constante","3,141595");  // criando constante e mostrando ela
-      echo constante;  // ira mostrar 3,141595
+    
+     define("minhaPrimeiraConstante","3,141595");  // criei uma constante chama de minhaPrimeiraConstante com o valor de 3,141595
+     echo constante;  // ira mostrar 3,141595
 
 
     $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
