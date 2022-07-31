@@ -137,30 +137,30 @@
  @@ select avg(totalaulas) from cursos; // faz a media de totalaulas da base de dados cursos
 
  @@ select carga from cursos
-   group by carga; // vai agrupar cada registro por seu grupo
+    group by carga; // vai agrupar cada registro por seu grupo
 
-select carga, count(carga) from cursos
-group by carga; // vai agrupar cada registro por seu grupo e contar 
-having count(nome) > 3; // 
+ @@ select carga, count(carga) from cursos
+    group by carga; // vai agrupar cada registro por seu grupo e contar 
+    having count(nome) > 3; // 
 
-select ano, count(*) from cursos
-group by aonde
-having count(ano) >= 5 
-order by count(*) desc // 
+ @@ select ano, count(*) from cursos
+    group by aonde
+    having count(ano) >= 5 
+    order by count(*) desc // 
 
-alter table gafanhotos
-add foreign key (cursopreferido)
-references cursos(idcurso);
+ @@ alter table gafanhotos
+    add foreign key (cursopreferido)
+    references cursos(idcurso);
 
-select * from gafanhotoss;
-select * gafanhotos.nome, cursos.nome, cursos.ano 
-from gafanhotos as g join cursos as c 
-on cursos.idcursos = gafanhotos.cursopreferido //
+ @@ select * from gafanhotoss;
+    select * gafanhotos.nome, cursos.nome, cursos.ano 
+    from gafanhotos as g join cursos as c 
+    on cursos.idcursos = gafanhotos.cursopreferido //
 
-select * from gafanhotoss;
-select * gafanhotos.nome, cursos.nome, cursos.ano 
-from gafanhotos as g left outer join cursos as c 
-on cursos.idcursos = gafanhotos.cursopreferido //
+  @@ select * from gafanhotoss;
+     select * gafanhotos.nome, cursos.nome, cursos.ano 
+     from gafanhotos as g left outer join cursos as c 
+     on cursos.idcursos = gafanhotos.cursopreferido //
 
 
 
