@@ -7,11 +7,12 @@ use " " ## seleciona uma tabela com o nome passado entre os parenteses
 
 desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado
 
-create table pessoas IF NOT EXIST UNIQUE {
+create table pessoas IF NOT EXIST UNIQUE { ## cria uma nova tabela se essa ainda não existir
 
   default character set utf8
-  default collate utf8_general_ci
-  id int NOT NULL, AUTO_INCREMENT,
+  default collate utf8_general_ci ## duas linhas de codigo que servem para definir a formatação uft - 8 
+  
+  id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria, NOR NUll significa "se a coluna/tabela não estiver vazia" e AUTO_INCREMENT significa "ira ser incrementado 1 a mais  
   nome int UNSIGNED NOT NULL,
  "nascimento" date,
   sexo enum("M","F"),
