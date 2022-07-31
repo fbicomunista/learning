@@ -21,10 +21,15 @@
      para printar algo na tela, um texto, variavel, constante, etc se usa a função echo
      
      echo $meuInicio; // hello world em PHP 
-    
-    
      echo $string;  // ira mostrar a variavel $string
-     echo "olá," ."mundo";  // ou com concatenação
+     
+     para  juntar dois textos em PHP, se usa o simbolo de mais entre os dois textos que eu quero juntar
+     
+     echo "olá " + "mundo"; // ira mostrar "ola" "mundo"
+     echo "Eu " + "sou " + "um " + "texto " + 'com " + "espaço"
+     echo 
+     
+     Obs: como no texto final eu quero que tenha um espaço entre os dois textos, sempre no primeiro coloque um espaço no final
       
     
      define("minhaPrimeiraConstante","3,141595");  // criei uma constante chama de minhaPrimeiraConstante com o valor de 3,141595
