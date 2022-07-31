@@ -21,41 +21,55 @@
  @ id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria", ou seja, cada linha dessa tabela tera um valor de identificação em numero unico, neste caso como    foi a primeira a ser criada sua chave primaria sera 1, INT significa "inteiro", ou seja, obriga o valor a ser passado a ser int, se não for, não havera criação de    tabela, "NOR NUll" significa se a coluna/tabela não estiver vazia ele ira dar proseguemento a criação e "AUTO_INCREMENT" significa ira ser incrementado 1 a mais a    sua chave primaria, mais alem voce entendera melhor isso   
  
   nome int UNSIGNED NOT NULL,
- "nascimento" date,
+  nascimento date,
   sexo enum("M","F"),
   peso decimal(5,2),
   altura decimal(3,2),
   nacionalidade varchar(20) default 'brasil',
   PRIMARY KEY(id)
-} default charset = utf8;
+  } default charset = utf8;
 
-insert into pessoas
-(id, nome, nascimento, sexo, altura, naconalidade)
-values
-('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
+@ insert into pessoas 
+   (id, nome, nascimento, sexo, altura, naconalidade)
+  values
+   ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
                            =
-insert into pessoas values
-('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
+@ insert into pessoas values
+   ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
                            =
-insert into pessoas values
-('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil'),
-('default', 'pedro', '2000-07-15', 'M','52.3','1.45','EUA'),
-(........);
+# insert into pessoas values
+   ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil'),
+   ('default', 'pedro', '2000-07-15', 'M','52.3','1.45','EUA'),
+   ( ... );
 
-select * from pessoas // 
-alter table "tabela"; //
-add column "column" varchar(10)  after 'nome'; // adiciona um novo campo na tabela depois do nome
-add column 'codigo' int first; // adiciona um novo campo em primeiro lugar na tabela
-alter table "pessoas"
-modify column 'profissao' varchar(20); // modifica a column como queira
-alter table "pessoas"
-change column "column antiga" "column nova"; // modifica o nome do campo
-alter table "pessoas"
-rename to "gafanhotos"; // renomeia o nome da tabela inteira
-alter table "pessoas"
-add primary key(idcurso); // adiciona uma primary key
-drop table "tabela"; // exclui uma tabela inteira
-drop table if exists teste; // exclui uma tabela inteira
+@ select * from pessoas ## comando que ira selecionar todos os elementos da tabela pessoas
+
+@ alter table "tabela"; ## inicio do comando geral para editar algo da base de dados
+
+@ add column "column" varchar(10)  after 'nome'; // adiciona um novo campo na tabela depois do nome
+
+@ add column 'codigo' int first; // adiciona um novo campo em primeiro lugar na tabela
+
+@ alter table "pessoas"
+
+@ modify column 'profissao' varchar(20); // modifica a column como queira
+
+@ alter table "pessoas"
+
+@ change column "column antiga" "column nova"; // modifica o nome do campo
+
+@ alter table "pessoas"
+
+@ rename to "gafanhotos"; // renomeia o nome da tabela inteira
+
+@ alter table "pessoas"
+
+@ add primary key(idcurso); // adiciona uma primary key
+
+@ drop table "tabela"; // exclui uma tabela inteira
+
+@ drop table if exists teste; // exclui uma tabela inteira
+
 
 update "tabela"; // edita o campo aonde o outro campo esta 
 set nome = "HTML 5", ano = 2015, carga = 40
