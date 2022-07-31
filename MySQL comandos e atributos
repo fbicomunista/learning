@@ -1,21 +1,24 @@
 
-   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em JavaScript), é a "mãe" das linguagens de exploração de base de dados para manipulação, possui uma sintaxe não muito complicada se voce já tiver acostumado com Programação, se usa comandos basicos e atributos extras que seram ensinados logo abaixo 
+   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em     JavaScript), é a "mãe" das linguagens de exploração de base de dados, possui uma sintaxe não muito complicada se voce já tiver acostumado com Programação, se usa comandos basicos e atributos extras que seram ensinados logo abaixo 
 
+     Comandos:
 
 @ create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
 
 @ create table " " ## cria uma nova tabela com o nome passado entre os parenteses
 
-@ use " " ## seleciona uma tabela com o nome passado entre os parenteses
+ @ use " " ## abre uma tabela com o nome passado entre os parenteses
 
-@ desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado
+ @ desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado que ira mostrar todas as tabelas já existentes
+ 
+ 
+@@ create table "pessoas" IF NOT EXIST UNIQUE { ## cria uma nova tabela, o atributo "IF NOT EXIST" obriga a só criar essa tabela se ainda não tiver nenhuma tabela com    esse mesmo nome na base de dados, caso existir uma tabela com esse nome, ele ira cancelar a criação de uma nova tabela imediatamente, precisa terminar com "{" para    indicar os dados que iram ser da tabela
 
-@@ create table pessoas IF NOT EXIST UNIQUE { ## cria uma nova tabela, o atributo "IF NOT EXIST" obriga a só criar essa tabela se ainda na tiver nenhuma tabela com      esse mesmo nome na base de dados, caso existir uma tabela com esse nome ele ira cancelar a criação de uma nova tabela imediatamente
 
  @ default character set utf8
    default collate utf8_general_ci ## duas linhas de codigo que servem para definir a formatação uft - 8 
   
- @ id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria", ou seja, cada linha dessa tabela tera um valor de identificação em numero unico, neste caso como foi a primeira a ser criada sua chave primaria sera 1, INT significa "inteiro", ou seja, obriga o valor a ser passado a ser int, se não for, não havera criação de tabela, "NOR NUll" significa se a coluna/tabela não estiver vazia ele ira dar proseguemento a criação e "AUTO_INCREMENT" significa ira ser incrementado 1 a mais a sua chave primaria, mais alem voce entendera melhor isso   
+ @ id int NOT NULL, AUTO_INCREMENT, ## id significa "chave primaria", ou seja, cada linha dessa tabela tera um valor de identificação em numero unico, neste caso como    foi a primeira a ser criada sua chave primaria sera 1, INT significa "inteiro", ou seja, obriga o valor a ser passado a ser int, se não for, não havera criação de    tabela, "NOR NUll" significa se a coluna/tabela não estiver vazia ele ira dar proseguemento a criação e "AUTO_INCREMENT" significa ira ser incrementado 1 a mais a    sua chave primaria, mais alem voce entendera melhor isso   
  
   nome int UNSIGNED NOT NULL,
  "nascimento" date,
