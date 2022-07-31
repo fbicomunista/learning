@@ -1,18 +1,19 @@
 
-   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em     JavaScript), é a "mãe" das linguagens de exploração de base de dados, possui uma sintaxe não muito complicada se voce já tiver acostumado com Programação, se usa comandos basicos e atributos extras que seram ensinados logo abaixo 
+   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em              JavaScript) para manipulação de seus dados, é a "mãe" das linguagens de exploração de base de dados, possui uma sintaxe não muito complicada se voce já tiver          acostumado com Programação, usa comandos basicos e atributos extras para criar linhas unicas e/ou mais especificas que seram ensinados logo abaixo 
+
 
      Comandos:
 
-@ create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
+ @ create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
 
-@ create table " " ## cria uma nova tabela com o nome passado entre os parenteses
+ @ create table " " ## cria uma nova tabela com o nome passado entre os parenteses
 
  @ use " " ## abre uma tabela com o nome passado entre os parenteses
 
  @ desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado que ira mostrar todas as tabelas já existentes
  
  
-@@ create table "pessoas" IF NOT EXIST UNIQUE { ## cria uma nova tabela, o atributo "IF NOT EXIST" obriga a só criar essa tabela se ainda não tiver nenhuma tabela com    esse mesmo nome na base de dados, caso existir uma tabela com esse nome, ele ira cancelar a criação de uma nova tabela imediatamente, precisa terminar com "{" para    indicar os dados que iram ser da tabela
+ @@ create table "pessoas" IF NOT EXIST UNIQUE { ## cria uma nova tabela, o atributo "IF NOT EXIST" obriga a só criar essa tabela se ainda não tiver nenhuma tabela       com esse mesmo nome na base de dados, caso existir uma tabela com esse nome, ele ira cancelar a criação de uma nova tabela imediatamente, precisa terminar com         "{" para    indicar os dados que iram ser da tabela
 
 
  @ default character set utf8
@@ -34,17 +35,18 @@
   values
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
                            =
-@ insert into pessoas values
+@@ insert into pessoas values ## comando atalho para não ter que ser obrigado a dizer de qual tabela é para adicionar os dados
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
-                           =
-# insert into pessoas values
+     
+     =
+@ insert into pessoas values
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil'),
    ('default', 'pedro', '2000-07-15', 'M','52.3','1.45','EUA'),
    ( ... );
 
-@ select * from pessoas ## comando que ira selecionar todos os elementos da tabela pessoas
+@ select * from "pessoas" ## comando que ira selecionar todos os elementos da tabela pessoas
 
-@ alter table "tabela"; ## inicio do comando geral para editar algo da base de dados
+@ alter table "tabela"; ## inicio do comando geral para editar algo da base de dados me refiro inicio porque nos proximos codigos é que iram ser especificados quais alteraçoes iram ser feitas
 
 @ add column "column" varchar(10)  after 'nome'; // adiciona um novo campo na tabela depois do nome
 
