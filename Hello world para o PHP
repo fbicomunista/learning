@@ -16,12 +16,19 @@
      $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
      $carro = "Sou um carro" // criei a variavel carro que contem uma string
      $umNumero = 5 // criei a variavel umNumero que contem um tipo number dentro dela
+     $meuInicio = "Hello World!" 
+    
+     para printar algo na tela, um texto, variavel, constante, etc se usa a função echo
+     
+     echo $meuInicio; // hello world em PHP 
     
     
-    $meuInicio = "Hello World!" // hello world em PHP
-    
-      echo $string;  // ira mostrar a variavel $string
-      echo "olá," ."mundo";  // ou com concatenação
+     echo $string;  // ira mostrar a variavel $string
+     echo "olá," ."mundo";  // ou com concatenação
+      
+     
+      
+      
 
 
     define("constante","3,141595");  // criando constante e mostrando ela
