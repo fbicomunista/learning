@@ -113,49 +113,50 @@
           </tr> 
 
 
- <form action="" type="text">
-   	<input type="text" class="input-mini">
-    <input type="text" class="input-small">
-    <input type="text" class="input-medium">
-    <input type="text" class="input-large">
-		<input type="text" class="input-xlarge">
-	  <input type="text" class="input-xxlarge">
-  </form> # todos esses atributos iram configurar um tamano pré definido de input
+        <form action="" type="text">
+   	 <input type="text" class="input-mini">
+         <input type="text" class="input-small">
+         <input type="text" class="input-medium">
+         <input type="text" class="input-large">
+	 <input type="text" class="input-xlarge">
+	 <input type="text" class="input-xxlarge">
+        </form> # todos esses atributos iram configurar um tamano pré definido de input
 
-  <div>
-    <input type="text" class="span12"><br> # o input dera o tamanho de 12 colunas
-  </div>
-  <div>
-    <input type="text" class="span8"><br> # aqui o input tera o tamanho de 8 colunas
-  </div>
+        <div>
+         <input type="text" class="span12"><br> # o input dera o tamanho de 12 colunas
+        </div>
+	
+        <div>
+         <input type="text" class="span8"><br> # aqui o input tera o tamanho de 8 colunas
+        </div>
 
-  <div class="controls constrols-row">
-    <input type="text" class="span2"><br>
-    <input type="text" class="span3">
-  </div> # caso for preciso colocar dois inputs numa mesma linha, pode se usar o atributo "constrols constrols-row"
- </form>
+        <div class="controls constrols-row">
+         <input type="text" class="span2"><br>
+         <input type="text" class="span3">
+        </div> # caso for preciso colocar dois inputs numa mesma linha, pode se usar o atributo "constrols constrols-row"
+       </form>
 
-
-<form action="" class="form-search">
+       <form action="" class="form-search">
 	<input type="text" class="input-me search-query"></input>
-	<button class="btn">Busca</button>
-</form> # cria um input arrendondado
+	 <button class="btn">Busca</button>
+       </form> # cria um input arrendondado
 
 
-<form action="" class="form-horizontal">
+       <form action="" class="form-horizontal">
 	<div class="control-group">
-		<label class="control-label">email"></label>
-		<div class="controls">
-			<input type="text" id="inputemail">
-		</div>
+	 <label class="control-label">email"></label>
+	<div class="controls">
+	  <input type="text" id="inputemail">
+	</div>
 
-<form action="" class="form-horizontal">
+       <form action="" class="form-horizontal">
 	<div class="control-group">
-		<label class="control-label">email"></label>
-		<div class="controls">
-			<input type="text" id="inputpassword">
-		</div>
-<button class="btn">entrar</button> # cria dois formularios um de email e outro de senha horizondais
+	 <label class="control-label">email"></label>
+	<div class="controls">
+	  <input type="text" id="inputpassword">
+	</div>
+	
+       <button class="btn">entrar</button> # cria dois formularios um de email e outro de senha horizondais
 
 
   <input type="text" class="input-small" placeholder="email">	
