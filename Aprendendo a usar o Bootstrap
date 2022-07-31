@@ -22,15 +22,16 @@
    @ <div class="row">
    
    @ <div class="span 8">span 8</div>
-   # <div class="span 4">span 4</div>
+  
+  # <div class="span 4">span 4</div>
    
-   # </div> ## essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
+   </div> ## essa div vai prencher todas as 12 espaços para colunas com uma coluna ocupando 8 espaços no lado esquerdo e outra ocupando 4 espaços do lado direito
 
 
    @ <div class="conteiner-fluid"></div>
-   @ <div calss="row-fluid"></div>
-   @ <div class="span 7 bloco1">span 8</div>
-   @ <div class="span 3 offset2 bloco2">span</div>
+  @@ <div calss="row-fluid"></div>
+  @@ <div class="span 7 bloco1">span 8</div>
+  @@ <div class="span 3 offset2 bloco2">span</div>
       
 
 
@@ -45,7 +46,7 @@
      </ul> ## retira os bullets (bolinhas de marcação) da lista não ordenada
 
 
-     <ol class="inline">
+  @@ <ol class="inline">
        <li> Menu 1 </li>
        <li> Menu 2 </li> 
        <li> Menu 3 </li>
@@ -53,11 +54,11 @@
 
 
 
-     <dl class="dl-horizontal">
-       <dd> Item 1 </dd>
-        <dt> descrição da lista </dt    
-       <dd> Item 2 </dd>
-	<dt> descrição da lista </dt>   
+  @@ <dl class="dl-horizontal">
+      <dd> Item 1 </dd>
+       <dt> descrição da lista </dt    
+      <dd> Item 2 </dd>
+       <dt> descrição da lista </dt>   
 	
 	
     @ </dl> ## cria uma lista descritiva, muito parecida com um dicionario ao centro
@@ -83,34 +84,33 @@
 	  </tr>
 	  
 	  
-		<tr class="sucess">
-			<td> 02 </td>
-			<td> João Vitor </td>
-			<td> 8.5 </td>
-			<td> Aprovado </td> 
-        </tr>
-        <tr class="warning">
-			<td> 03 </td>
-			<td> Alanna Ferraz </td>
-			<td> 6.0 </td>
-			<td> Recuperação </td> # vai deixar essa linha da tabela em amarelo
-		</tr>
-		<tr class="error">
-			<td> 04 </td>
-			<td> José Henrique </td>
-			<td> 5.5 </td>
-			<td> Pendente </td> # vai deixar essa linha da tabela em vermelho
-		</tr>
-		<tr class="info">
-			<td> 04 <5td>
-			<td> Maria Clara </td>
-			<td> 4.0 </td>
-			<td> Pendente </td> # vai deixar essa linha da tabela em azul
-    </tr>
-
-		</tr>
-	</tbody>
-	</table> # 
+	  <tr class="sucess">
+	   <td> 02 </td>
+	   <td> João Vitor </td>
+	   <td> 8.5 </td>
+	   <td> Aprovado </td> 
+          </tr>
+        
+	  <tr class="warning">
+	   <td> 03 </td>
+	   <td> Alanna Ferraz </td>
+	   <td> 6.0 </td>
+	   <td> Recuperação </td> # vai deixar essa linha da tabela em amarelo
+	  </tr>
+		
+	  <tr class="error">
+	   <td> 04 </td>
+	   <td> José Henrique </td>
+	   <td> 5.5 </td>
+	   <td> Pendente </td> # vai deixar essa linha da tabela em vermelho
+	  </tr>
+		
+	  <tr class="info">
+	   <td> 04 <5td>
+	   <td> Maria Clara </td>
+	   <td> 4.0 </td>
+	   <td> Pendente </td> # vai deixar essa linha da tabela em azul
+          </tr> 
 
 
  <form action="" type="text">
