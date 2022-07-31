@@ -9,35 +9,36 @@
 <h1>Aprendendo a linguagem PHP!</h1>
 
 	
- 	Bem vindo ao meu bloco de estudos da linguagem PHP:
+      @ Bem vindo ao meu bloco de estudos da linguagem PHP:
 
-    <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
+   @ <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
     
-     $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
-     $carro = "Sou um carro" // criei a variavel carro que contem uma string
-     $umNumero = 5 // criei a variavel umNumero que contem um tipo number dentro dela
-     $meuInicio = "Hello World!" 
+   # $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
+   # $carro = "Sou um carro" // criei a variavel carro que contem uma string
+   # $umNumero = 5 // criei a variavel umNumero que contem um tipo number dentro dela
+   # $meuInicio = "Hello World!" 
     
-     para printar algo na tela, um texto, variavel, constante, etc se usa a função echo
+   @ para printar algo na tela, um texto, variavel, constante, etc se usa a função echo
      
-     echo $meuInicio; // hello world em PHP 
-     echo $string;  // ira mostrar a variavel $string
+   # echo $meuInicio; // hello world em PHP 
+   # echo $string;  // ira mostrar a variavel $string
      
-     para  juntar dois textos em PHP, se usa o simbolo de mais entre os dois textos que eu quero juntar
+   @ para  juntar dois textos em PHP, se usa o simbolo de mais entre os dois textos que eu quero juntar
      
-     echo "olá " + "mundo"; // ira mostrar "ola" "mundo"
-     echo "Eu " + "sou " + "um " + "texto " + 'com " + "espaço"
+   # echo "olá " + "mundo"; // ira mostrar "ola" "mundo"
+   # echo "Eu " + "sou " + "um " + "texto " + 'com " + "espaço"
      
-     Obs: como no texto inteiro final eu quero que tenha um espaço entre os pedaços de texto, sempre no final coloque um espaço no final
+  ## Obs: como no texto inteiro final eu quero que tenha um espaço entre os pedaços de texto, sempre no final coloque um espaço no final
       
-      
-     toda constante em PHP é uma variavel imutavel, como uma constante na matematica ela sempre tera o mesmo valor
+    @ toda constante em PHP é uma variavel imutavel, como uma constante na matematica ela sempre tera o mesmo valor
     
-     define("souOutraConstante","textoDaConstante")
-     define("numeroDePi","3,141595");  // criei uma constante chamada de numeroDePi com o valor de 3,141595
+   # define("souOutraConstante","textoDaConstante")
+   # define("numeroDePi","3,141595");  // criei uma constante chamada de numeroDePi com o valor de 3,141595
+    
+   # echo souOutraConstante;  // ira mostrar textoDaConstante
+   # echo numeroDePi; // ira mostrar 3,141595
      
-     echo souOutraConstante;  // ira mostrar textoDaConstante
-     echo numeroDePi; // ira mostrar 3,141595
+  @ uma array, é como se fosse um conjunto de valor imbutido,
 
     $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
 
