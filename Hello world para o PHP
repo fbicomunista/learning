@@ -4,17 +4,24 @@
     <meta charset= utf-8 >
 </head>
 <body>
+
  
-	// Aqui vai o meu inicio nele
-    <h1>Aprendendo a linguagem PHP!</h1>
+<h1>Aprendendo a linguagem PHP!</h1>
 
-    <?php
+	
+ 	Bloco de estudos da linguagem python
 
-       // hello world em PHP
-
-    $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
+    <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
     
-      echo "$string;  // ira mostrar a variavel $string
+    
+
+     $string = "hello world"  // para criar uma variavel, se usa o sinal de $ antes do nome dela
+     $carro = "Sou um carro" // criei a variavel carro que contem uma string
+    
+    
+    $meuInicio = "Hello World!" // hello world em PHP
+    
+      echo $string;  // ira mostrar a variavel $string
       echo "olá," ."mundo";  // ou com concatenação
 
 
