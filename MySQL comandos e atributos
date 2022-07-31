@@ -3,6 +3,7 @@
 
 
      Comandos:
+     
 
  @ create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
 
@@ -34,15 +35,16 @@
    (id, nome, nascimento, sexo, altura, naconalidade)
   values
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
-                           =
-@@ insert into pessoas values ## comando atalho para não ter que ser obrigado a dizer de qual tabela é para adicionar os dados
+      
+      =
+@@ insert into pessoas values ## comando atalho para não ter que ser obrigado a dizer de qual tabela ira ter que ser adicionado novos dados ( percebeu que não tem o (id, nome, nascimento, sexo, altura, naconalidade) nela?
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil');
      
-     =
-@ insert into pessoas values
+     
+@@ insert into pessoas values
    ('default', 'godofredo', '1984-01-02', 'M','78-5','1.83','Brasil'),
    ('default', 'pedro', '2000-07-15', 'M','52.3','1.45','EUA'),
-   ( ... );
+   ( ... ); ## voce pode tambem adicionar varios novos elementos na tabela sem ter que ficar digitando o comando de inserir novos dados ( insert into pessoas values ) 
 
 @ select * from "pessoas" ## comando que ira selecionar todos os elementos da tabela pessoas
 
