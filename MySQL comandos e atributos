@@ -1,18 +1,16 @@
 
-   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em JavaScript) é a "mãe" das linguagens de exploração de base de dados para manipulação dos dados, se usa comandos basicos e atributos extras que seram ensinados logo abaixo
-
-
+   % Bem vindo(a), mySQL é uma base de dados que usa o modelo relacional em oposição a outras bases de dados não relacionais como MongoDB (que usa objetos em JavaScript), é a "mãe" das linguagens de exploração de base de dados para manipulação, possui uma sintaxe não muito complicada se voce já tiver acostumado com Programação, se usa comandos basicos e atributos extras que seram ensinados logo abaixo 
 
 
 create database " " ## cria uma nova base de dados com o nome passado entre os parenteses
 
-create table " " { } ## cria uma nova tabela com o nome passado entre os parenteses
+create table " " ## cria uma nova tabela com o nome passado entre os parenteses
 
 use " " ## seleciona uma tabela com o nome passado entre os parenteses
 
 desc " " ## descreve a tabela com o nome passado entre os parenteses ou sem nome passado
 
-create table pessoas IF NOT EXIST UNIQUE { ## cria uma nova tabela se essa ainda não existir
+create table pessoas IF NOT EXIST UNIQUE { ## cria uma nova tabela, o atributo "IF NOT EXIST" obriga a só criar essa tabela se ainda na tiver nenhuma tabela com esse mesmo nome na base de dados, caso existir uma tabela com esse nome ele ira cancelar a criação de uma nova tabela
 
   default character set utf8
   default collate utf8_general_ci ## duas linhas de codigo que servem para definir a formatação uft - 8 
