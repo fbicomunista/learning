@@ -9,7 +9,7 @@
 <h1>Aprendendo a linguagem PHP!</h1>
 
 	
-    @ Bem vindo ao meu bloco de estudos da linguagem PHP:
+    @ Bem vindo ao meu bloco de estudos da linguagem PHP, aqui oce aprendera os principais comandos e estrutura da linguagem
 
 
    @ <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
@@ -23,7 +23,7 @@
    # $meuInicio = "Hello World!" 
     
     
-   @ para printar algo na tela, um texto, variavel, constante, etc se usa a função echo
+   @ para printar algo na tela, um texto, variavel, constante, etc, se usa a função echo
      
      
    # echo $meuInicio; // hello world em PHP 
@@ -89,9 +89,10 @@
 
    @ voce tambem pode usar um estrutura if e else ou elseif 
 
+
    # $idade = 50;
 
-   # if($idade > 60) {
+   @ if($idade > 60) {
       echo "Você esta muito velho";
      } else {
       echo "ainda é novo";
@@ -112,25 +113,30 @@
 
    @ voce tambem pode criar uma estrutura de repetição com o switch
    
+   @ a estrutura switch tem uma sintaxe parecida com a if e else, voce digita switch, a variavel ou constante que ira ser usada e para cada condição feita dentro do case de variavel, ele ira continuar com o echo 
+   
+   
+   ## Obs: break serve para indicar que caso o codigo de cima seja usado, ele ira encerrar o processo
    
    # $nome = 'Fulano';
-
+   
    @ switch($nome) {
-     case 'Fulano':
-      echo 'E ai Fulano!';
+      case 'Fulano':
+       echo 'E ai Fulano!';
      break;
 
-    case 'Sicrano':
-      echo 'E ai Sicrano!';
+      case 'Sicrano':
+       echo 'E ai Sicrano!';
      break;
 
-    case 'Beltrano':
-      echo 'E ai Beltrano!';
+      case 'Beltrano':
+       echo 'E ai Beltrano!';
      break;
 
     default:
-      echo 'Qual é o seu nome?';
-     break;
+       echo 'Qual é o seu nome?';
+       
+    break;
   }
 
 
@@ -141,25 +147,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ?>
+ ?>
   </body>
 </html>
