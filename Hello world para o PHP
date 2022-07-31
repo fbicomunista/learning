@@ -27,14 +27,17 @@
      
      echo "olá " + "mundo"; // ira mostrar "ola" "mundo"
      echo "Eu " + "sou " + "um " + "texto " + 'com " + "espaço"
-     echo 
      
-     Obs: como no texto final eu quero que tenha um espaço entre os dois textos, sempre no primeiro coloque um espaço no final
+     Obs: como no texto inteiro final eu quero que tenha um espaço entre os pedaços de texto, sempre no final coloque um espaço no final
       
+      
+     toda constante em PHP é uma variavel imutavel, como uma constante na matematica ela sempre tera o mesmo valor
     
-     define("minhaPrimeiraConstante","3,141595");  // criei uma constante chama de minhaPrimeiraConstante com o valor de 3,141595
-     echo constante;  // ira mostrar 3,141595
-
+     define("souOutraConstante","textoDaConstante")
+     define("numeroDePi","3,141595");  // criei uma constante chamada de numeroDePi com o valor de 3,141595
+     
+     echo souOutraConstante;  // ira mostrar textoDaConstante
+     echo numeroDePi; // ira mostrar 3,141595
 
     $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
 
