@@ -9,7 +9,7 @@
 <h1>Aprendendo a linguagem PHP!</h1>
 
 	
-      @ Bem vindo ao meu bloco de estudos da linguagem PHP:
+   @ Bem vindo ao meu bloco de estudos da linguagem PHP:
 
    @ <?php // para colocar um codigo PHP dentro de uma pagina HTML, se usa o <?PHP no inicio do codigo e ?> no final
     
@@ -38,36 +38,36 @@
    # echo souOutraConstante;  // ira mostrar textoDaConstante
    # echo numeroDePi; // ira mostrar 3,141595
      
-  @ uma array, é como se fosse um conjunto de valor imbutido,
+   @ uma array, é como se fosse um conjunto de valores imbutidos, cada valor tem a sua chave
 
-    $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
+   # $MinhaArray = array("fruta" => "maça", "lugar" => "parque", "pais" => "Suecia", "2+2=5" => false);  // criando array e mostrando ela
 
-      echo $minhaArray["lugar"];
-      echo $minhaArray["2+2=5"];
+   # echo $minhaArray["lugar"];
+   # echo $minhaArray["2+2=5"];
 
    
-      // convertendo variaveis (type casting)
+   @ convertendo variaveis (type casting)
     
-    $SouUmaVariavel = "olá";
-     $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
-      echo (int)$primeiraConverção;
+   # $SouUmaVariavel = "olá";
+   # $primeiraConverção = (int) $SouUmaVariavel; // converte para inteiro
+   # echo (int)$primeiraConverção;
 
-    $SouUmaVariavel2 = "hello"; 
-     $segundaConverção = (bool) $SouUmaVariavel2; // converte para boolean
-      echo (bool)$segundaConverção;
+   # $SouUmaVariavel2 = "hello"; 
+   # $segundaConverção = (bool) $SouUmaVariavel2; // converte para boolean
+   # echo (bool)$segundaConverção;
 
-    $SouUmaVariavel3 = "ciao"
-     $terceiraConverção = (array) $SouUmaVariavel3; 
-       echo (array) $SouUmaVariavel3;
+   # $SouUmaVariavel3 = "ciao"
+   # $terceiraConverção = (array) $SouUmaVariavel3; 
+   # echo (array) $SouUmaVariavel3;
 
-     // usando os operadores
+   @ usando os operadores
 
-    $x = 2;
-    $y = 8;
+   # $x = 2;
+   # $y = 8;
 
-    $c = $x + $y; // soma as duas variaveis
+   # $c = $x + $y; // soma as duas variaveis
     
-    $b = $c / $x; // divide as duas variaveis dando o resultado 5 
+   # $b = $c / $x; // divide as duas variaveis dando o resultado 5 
     
     $d = $x * $y; // multiplica as duas variaveis dando o resultado 16
     
