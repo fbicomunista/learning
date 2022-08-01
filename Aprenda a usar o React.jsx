@@ -2,13 +2,22 @@
 
 
     % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é           carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes,           conceito esse que facilitaria a organização e corrção de bug na pagina 
-
+    
+ @ O React usa o jsx como "linguagem", jsx é uma mistura de Html e JavaScript
+  
+ @ primeiro de tudo precisamos importar o React com o seguinte codigo :
+ 
+ @ import React from 'react' ## importa o React
+   import ReactDom from 'react-dom' ## importa uma parte do React que ira manipular a arvore DOM
    
- @ import React from 'react'
-   import ReactDom from 'react-dom'
-   
 
- # em uma outra pagina da qual é um module para o JavaScript, esse modulo pode ser chamado de Componente para o React, todo Componente começa com letras maiuculas
+
+ ReactDOM.render{
+	
+	
+
+
+ # em uma outra pagina da qual é um module para o JavaScript, esse modulo pode ser chamado de Componente para o React, todo Componente começa com letras maiuculas e    sua sintexa é parecida com uma tag HTML
  
  
  
