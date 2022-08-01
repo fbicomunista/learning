@@ -19,17 +19,31 @@
 
 @ ReactDOM.render{} ## A função .render, ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
 
-# todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em linguagem JSX/TSX
+# Todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em linguagem JSX/TSX
 	
    <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React podemos chamar quantos Componentes quizermos
    <Segundo></Segundo> ## componente com o nome de Segundo
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
- # porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma "Tag" especifica que ira entre os componentes, permitindo que eles se mostrem          proximos um do outro
+ # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma "Tag" especifica que ira entre os componentes, permitindo que eles se mostrem          proximos um do outro
  
  
- 
-  
+ ReactDOM.render{
+	 <Fragment.react>
+           <Primeiro> 
+           <Segundo>
+           <Terceiro> 
+	 </Fragment.react> ## Agora, todos os 3 Componentes iram se mostrar juntos
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
  @ {/*  */} # assim que se escreve um comentario em React
 
  # {/* Ola! eu sou um comentario */} 
