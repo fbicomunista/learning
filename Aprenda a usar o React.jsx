@@ -1,5 +1,8 @@
 
 
+
+   % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes, conceito esse que facilitaria a organização e corrção de bug na pagina 
+
 {/*  */} # assim que se escreve um comentario em React
 
 
