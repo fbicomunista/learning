@@ -35,9 +35,14 @@
            <Terceiro> 
 	 </Fragment.react> ## Agora, todos os 3 Componentes iram se mostrar juntos
 		 
+ # Podemos tambem, mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
 		 
-		 
-		 
+	ReactDOM.render{
+	 <Fragment.react>
+           <Primeiro text = Agora meu nome é maicon> 
+           <Segundo = >
+           <Terceiro = > 
+	 </Fragment.react>	 
 		 
 		 
 		 
