@@ -1,23 +1,30 @@
 
 
 
-    % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é           carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes,           conceito esse que facilitaria a organização e corrção de bug na pagina 
+    % bem vindo(a), React é uma das principais frameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes,           conceito esse que facilitaria a organização e corrção de bug na pagina 
+    
     
  @ O React usa o jsx como "linguagem", jsx é uma mistura de Html e JavaScript
-  
+   
+ @ Os modulos do JavaScript são chamados pelo React de "Componetes"
+ 
+
  @ primeiro de tudo precisamos importar o React com o seguinte codigo :
  
  @ import React from 'react' ## importa o React
    import ReactDom from 'react-dom' ## importa uma parte do React que ira manipular a arvore DOM
+
    
+# Depois iremos precisar saber como chamar o React para fazer algo
 
+@ ReactDOM.render{} ## A função .render, ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
 
- ReactDOM.render{
+# todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em uma linguagem jsx
 	
-	
+   <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React podemos chamar quantos Componentes quizermos
+   <Segundo></Segundo> ## componente Segundo
+   <Terceiro></Terceiro>
 
-
- # em uma outra pagina da qual é um module para o JavaScript, esse modulo pode ser chamado de Componente para o React, todo Componente começa com letras maiuculas e    sua sintexa é parecida com uma tag HTML
  
  
  
@@ -28,7 +35,7 @@
  # {/* Ola! eu sou um comentario */} 
 
 
- @ ReactDOM.render{} ## ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
+ 
 
 
  @@ ReactDOM.render{
