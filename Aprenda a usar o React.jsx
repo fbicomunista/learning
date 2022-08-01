@@ -3,11 +3,16 @@
 
     % bem vindo(a), React é uma das principais frameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS e React que usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e correção de bug na pagina 
     
-    
+ 
+ @ existem varios modos para voce criar um projeto em React usando o node
+ 
+ @ Ocomando mais utilizado é o creat-react-app
+ 
  @ O React usa o JSX como "linguagem", jsx é uma mistura de Html e JavaScript ( no caso se voce for usar TypeScript ao inves de JavaSript, a sigla será TSX )
    
  @ Os modulos do JavaScript são chamados pelo React de "Componetes"
  
+ @ O React nos permite criar componentes de interface do usuário reutilizáveis
 
  @ Primeiro de tudo, precisamos importar o React com o seguinte codigo :
  
