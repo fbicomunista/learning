@@ -1,67 +1,76 @@
 
 
 
-   % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes, conceito esse que facilitaria a organização e corrção de bug na pagina 
+    % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é           carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes,           conceito esse que facilitaria a organização e corrção de bug na pagina 
 
    
-@ import React from 'react'
-  import ReactDom from 'react-dom'
+ @ import React from 'react'
+   import ReactDom from 'react-dom'
+   
+
+ # em uma outra pagina da qual é um module para o JavaScript, esse modulo pode ser chamado de Componente para o React, todo Componente começa com letras maiuculas
+ 
+ 
+ 
+ 
   
-@ {/*  */} # assim que se escreve um comentario em React
+ @ {/*  */} # assim que se escreve um comentario em React
 
-# {/* Ola! eu sou um comentario */} 
-
-
-@ ReactDOM.render{} ## ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
+ # {/* Ola! eu sou um comentario */} 
 
 
+ @ ReactDOM.render{} ## ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
 
 
-
-ReactDOM.render(
-	<React.fragment>
-		<primeiro></primeiro>
+ @@ ReactDOM.render{
+ 	<Primeiro></Primeiro> ## criei um componente chamado "Primeiro"
+ 
+ 
+ }
+	
+	 
+		<Primeiro></Primeiro> ## todo componente em React 
 		<ComParametro titulo="Esse é o titulo" subtitulo="Esse é um subtitulo"></comParametro>
-	</React.fragment>,
+	 ## 
 	document.getElementById("root")
 
-)
 
-export default parametros =>
+
+ export default parametros =>
 	<>
 		<h3>{parametros.titulo}</h3>
 		<p>{array(10).fill(0)}</p> # ira preexer uma array toda pelo numero 0
 	</> # tudo que estiver entre {} o React ira interpretar como codigo JavaScript
 
 
-ReactDOM.render(
+ ReactDOM.render(
 	<div className=""> # é obrigatorio no React usar "className" ao inves só de "Class"
 	</div>
 	);  
 
 
 
-type TweetProps = {
+ type TweetProps = {
 	text: string; # pode ser colocado um ponto de interrogação depois de text para descrever aquela tipagem é opcional por exemplo: text?: string;
-} # tipa a variavel "TweetProps" como uma string
+ } # tipa a variavel "TweetProps" como uma string
 
 
 
-type dropBox = {
+ type dropBox = {
 	text:string;
 }
 
 
 
-export function Tweet(props: dropBox){
+ export function Tweet(props: dropBox){
 	return (
 	<p>{props.text}</p>
-)
-}
+ )
+ }
 
 
 
-export function Tweet(props: TweetProps) {
+ export function Tweet(props: TweetProps) {
 	return (
 		<p>Tweet</p>
 	); # repassa a tipagem do "TweetPromps" para o "Tweet"
@@ -76,17 +85,17 @@ export function Tweet(props: TweetProps) {
 
 
 
-function App(){
+ function App(){
 	const (tweet, setTweets) = useState =><string[]>({
 		"Tweet 1",
 		"Tweet 2",
 		"Tweet 3"
 
-	}) # useState é uma função do React que toda vez que uma variavel/constante muda o seu valor todo o componente sera renderizado novamente e utilizando as <> (dinerigs) é preciso colocar uma lista de string logo, <string[]>
+	}) # useState é uma função do React que toda vez que uma variavel/constante muda o seu valor todo o componente sera renderizado novamente e utilizando as <>  (dinerigs) é preciso colocar uma lista de string logo, <string[]>
 
 
 
-function createTweet(){
+ function createTweet(){
 	setTweets([Tweets, "Tweet 5"])
 
 }
