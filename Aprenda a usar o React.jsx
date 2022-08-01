@@ -3,17 +3,16 @@
 
    % bem vindo(a), React é uma das principais fameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS o React usa a ideia de Componentes, conceito esse que facilitaria a organização e corrção de bug na pagina 
 
-{/*  */} # assim que se escreve um comentario em React
+   
+@ import React from 'react'
+  import ReactDom from 'react-dom'
+  
+@ {/*  */} # assim que se escreve um comentario em React
+
+# {/* Ola! eu sou um comentario */} 
 
 
-
-import React from 'react'
-import ReactDom from 'react-dom'
-
-ReactDOM.render{
-	<h1>Ola mundo</h1>
-	document.getElementById('root')
-} # ira colocar o conteudo "ola mundo" dentro da tag que contem o Id 'root'
+@ ReactDOM.render{} ## ira dizer para o React renderizar algo {mostrar) o que estiver entre {}
 
 
 
