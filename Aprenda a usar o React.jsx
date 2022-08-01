@@ -12,6 +12,23 @@
  
  # npx create-react-app my-react-app
  
+ @ Execute este comando para mover para o my-react-app o dretório que voce vai usar :
+ 
+ # cd my-react-app
+ 
+ @ execute esse para executar a aplicação :
+ 
+ # npm start
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  @ O React usa o JSX como "linguagem", jsx é uma mistura de Html e JavaScript ( no caso se voce for usar TypeScript ao inves de JavaSript, a sigla será TSX )
    
  @ Os modulos do JavaScript são chamados pelo React de "Componetes"
