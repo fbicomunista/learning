@@ -1,7 +1,8 @@
 
-  Ol·! seja muito bem vindo(a) ao meu repositorio!
+  Ol√°! seja muito bem vindo(a) ao meu repositorio!
 
-  Se È a sua primeira vez aqui, saiba que este pequeno arquivo È sÛ um sumario das minhas marcaÁoes de conteudo que eu  padronizei ao longo dos meus estudos em ProgramaÁ„o, recomendo que baixe este arquivo para que sempre que se esqueÁa de  alguma sintaxe, volte aqui para entender o que ela significa, fique com o sumario logo abaixo.  
+  Se √© a sua primeira vez aqui, saiba que este pequeno arquivo √© s√≥ um sumario das minhas        marca√ßoes de conteudo que eu padronizei ao longo dos meus estudos em Programa√ß√£o, recomendo que baixe este arquivo para que sempre que se esque√ßa de alguma sintaxe, volte aqui para entender o que ela significa, fique com o sumario logo abaixo :  
+
 
   % = Titulo
 
@@ -11,10 +12,11 @@
 
   # = exemplo do conteudo 
 
-  ## = informaÁ„o sobre alguma coisa 
+  ## = informa√ß√£o sobre alguma coisa 
 
-  ### = informaÁ„o opcional sobre algo
+  ### = informa√ß√£o opcional sobre algo
 
  
 
   Obs: Aos poucos esse arquivo tambem ira ser editado para novas sintaxes
+  
