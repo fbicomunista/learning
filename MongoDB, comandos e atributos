@@ -1,37 +1,46 @@
 
 
 
-  % Bem vindo(a) ao meu tutorial dos comandos da base de dados não relacional, MondoDB é uma base de dados que utiliza o JSON como manipulação de dados, por ser assim, é uma base de dados extremamente facil e rapida de se utiizar, assim sendo, se voce já tem familiaridade com JavaScript não tera dificuldade em aprender MongoDB
+  % Bem vindo(a) ao meu tutorial dos comandos da base de dados não relacional, 
+  MondoDB é uma base de dados que utiliza o JSON como manipulação de dados, por ser          
+  assim, é uma base de dados extremamente facil e rapida de se utiizar, assim, 
+  se voce já tem familiaridade com JavaScript não tera dificuldade em aprender MongoDB
 
 
-@ Antes de começar a falar sobre o MongoDB uma coisa extremamente importante de se falar é o vocabulario que as base de dados relacionais e não relacionais tem de diferentes um do outro para definir a mesma hierarquia de estrutura de dados
+ @ Antes de começar a falar sobre o MongoDB, 
+ uma coisa extremamente importante de se falar é o vocabulario que as base de dados relacionais e não relacionais tem de      
+ diferentes uma da outra para definir a mesma hierarquia de estrutura de dados,
+ para saber a diferença e não se confundir na hora que voce estiver manipulando os dados com ambas as lingugens de exploração
+ segue o exemplo dos seus respectivos vocabularios abaixo:
 
 
- SQL / MongoDB
-
-tables = colletions
-rows = documents 
-coluns = filds
+ # SQL / MongoDB
 
 
+ @ tables = colletions
+ 
+ @ rows = documents 
+ 
+ @ coluns = filds
 
-cls # ira limpar a tela de comandos 
 
-use pessoasData # foi criado uma base de dados com o nome "pessoasData"
 
-show dbs # mostra todos os bancos de dados criados até o momento
+@ cls #  ira limpar a tela de comandos 
 
-db.pessoas.insertOne({ nome: "Matheus", idade: 30, profissão: "Programador"
-	, esta_empregada: true }) # 
+@ use pessoasData # foi criado uma base de dados com o nome "pessoasData"
 
-db.pessoas.insertMany({
+@ show dbs # mostra todos os bancos de dados criados até o momento
+
+@ db.pessoas.insertOne({ nome: "Matheus", idade: 30, profissão: "Programador", esta_empregada: true }) # 
+
+@ db.pessoas.insertMany({
 	( nome: "Joao", idade: 40, profissao: ""Arquiteto: false),
 	( nome: "Maria", idade: 23 profissao: "professora", esta_empregado: 
 	true)
 	}); # O comando "insertMany", diferente do "insertOne", serve 
 	para inserir varios dados no banco de dados atraves de uma array
 
-db.pessoas.find().pretty() # o comando "find()" serve para filtrar 
+@ db.pessoas.find().pretty() # o comando "find()" serve para filtrar 
 todos os arquivos dentro daquela colletions repassada anterioramente, 
 o comando "pretty()" server para mostrar esses dados em forma vertical 
 (melhora a visibilidade do mesmo)
