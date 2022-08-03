@@ -66,14 +66,28 @@
 	 
  # voce tambem pode só colocar uma tag com nada dentro de abertura e fechamento para poder colocar os componenes, asssim, não precisando escrever o React.fragment 
 
+         <>
+           <Primeiro> 
+           <Segundo>
+           <Terceiro> 
+        </> ## ira surtir o mesmo efeito
+
+	 
+ @ existem dois tipos de ccomponentes React, componenetes criados atraves de uma classe e atraves de uma function
+
+	 
+@ para criar atraves de uma class, o componente deve incluir a extends React.Component, essa função pega como heraça o React e dá acesso as funçoes do React.Component
+	 
+@@ O componete tambem requer um render() como metodo, este método retorna HTML	 
 
 
-
-
-
-
+# class store extends React.Componenet {
+	render{
+		return <h2> Hello, I buy in a Store </H2>
+		
+#
 		 
- # Podemos tambem, mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
+ # Podemos tambem mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
 		 
 	ReactDOM.render{
 	 <Fragment.react>
