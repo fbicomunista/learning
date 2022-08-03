@@ -1,6 +1,8 @@
 
 
-   % Bem vindo(a) ao meu tutorial de comandos gerais do NPM ( Node Package Manager ), ele é de      extrema importancia não só para desenvolvedores back-end quando front-end, saber os seus      principais comando e atributos é de suma importancia
+   % Bem vindo(a) ao meu tutorial de comandos gerais do NPM ( Node Package Manager ), ele é de     
+   extrema importancia não só para desenvolvedores back-end quando front-end, saber os seus     
+   principais comando e atributos é de suma importancia
 
 
 
@@ -23,16 +25,20 @@
  @ npm install {MODULE} ou npm i {module} / é usado para instalar dependências.
 
    
- # Ao executar apenas “npm install“, instala-ra todas as dependências configuradas no arquivos    package.json.
+ # Ao executar apenas “npm install“, instala-ra todas as dependências configuradas no arquivos   
+ package.json.
 
  @ Ao usar a flag “--production“ serão instaladas apenas depedências de produção. 
 
 
  @ npm remove {MODULE} / remove um módulo previamente instalado.
 
- @@ npm init / comando usado para iniciar um projeto novo na pasta atual, se utilizado a flag     “-y“ assim “npm init -y“ será gerado uma inicialização com os parâmetros default sem           questionamentos.
+ @@ npm init / comando usado para iniciar um projeto novo na pasta atual, se utilizado a flag   
+ “-y“ assim “npm init -y“ será gerado uma inicialização com os parâmetros default sem        
+ questionamentos.
  
- @ npm ci / usado para o deploy de aplicações instalando todas as dependência definidas          package.json e versões do package-lock.json.
+ @ npm ci / usado para o deploy de aplicações instalando todas as dependência definidas     
+ package.json e versões do package-lock.json.
 
  
  @ Caso a pasta node_modules exista a mesma será removida e recriada na sequência.
@@ -41,20 +47,26 @@
   
  # É requerido que na pasta se tenha o arquivo package-lock.json ou npm-shrinkwrap.json.
 
- @@ npm outdated / retorna a lista de dependências desatualizadas mostrando a versão mais         recente suportada pela configuração no package.json e a ultima versão.
+ @@ npm outdated / retorna a lista de dependências desatualizadas mostrando a versão mais    
+ recente suportada pela configuração no package.json e a ultima versão.
 
- @@ npm update / atualiza projetos para a ultima versão respeitando o package.json, Pode-se       atualizar um único módulo executando “npm update {MODULE}”.
+ @@ npm update / atualiza projetos para a ultima versão respeitando o package.json, Pode-se  
+ atualizar um único módulo executando “npm update {MODULE}”.
 
  @@ npm version {COMMAND} / manipula a versão atual do projeto e adiciona tags no projeto git. 
 
- @@ npm audit / executa uma auditoria no projeto para identificar se existe alguma dependência     com vulnerabilidade conhecida, ao utilizar a flag --fix é feita uma tentativa de corrigir     o problema de forma automática.
+ @@ npm audit / executa uma auditoria no projeto para identificar se existe alguma dependência
+ com vulnerabilidade conhecida, ao utilizar a flag --fix é feita uma tentativa de corrigir     o problema de forma automática.
 
- @@ npm list / ou apenas “npm ls”, lista todas as dependências do projeto, com a flag “–depth     X” podemos ver uma arvore de dependências onde X é a profundidade que se deseja.
+ @@ npm list / ou apenas “npm ls”, lista todas as dependências do projeto, com a flag “–depth 
+ X” podemos ver uma arvore de dependências onde X é a profundidade que se deseja.
 
  @@ npm shrinkwrap / comando usado para travar a versão das dependências do seu projeto
-    Ao executar esse comando será criado o arquivo npm-shrinkwrap.json que servirá de base         para instalação das dependências.
+    Ao executar esse comando será criado o arquivo npm-shrinkwrap.json que servirá de base    
+    para instalação das dependências.
 
- @@ npm adduser {USERNAME} / adiciona um novo usuário no registre para permitir o envio de         pacotes para o mesmo.
+ @@ npm adduser {USERNAME} / adiciona um novo usuário no registre para permitir o envio de   
+ pacotes para o mesmo.
 
  @@ npm publish / publica o módulo atual no registre configurado.
 
