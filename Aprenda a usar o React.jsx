@@ -1,12 +1,12 @@
 
-
-
-    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML, CSS e principalmente JavaScript,         React é uma das principais frameworks de desenvolvimento para sites modernos, junto com o         angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes               das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina), o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
+% bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML, CSS e principalmente               JavaScript, React é uma das principais frameworks de desenvolvimento para sites modernos, junto com       o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes             das quais voce teria que pedir novamente uma requisição para o server já estariam "escondidas" na         pagina), o React por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a           organização e correção de bug na pagina, visto que todo Componente retorna somente um HTML. 
 
     
  @ {/*  */} # Assim que se escreve um comentario em React
 
  # {/* Ola! eu sou um comentario em React ;) */} 
+
+ # {/* Oi! eu tambem sou um comentario em React, prazer :) */} 
 
 
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
@@ -142,7 +142,7 @@
 	<React.fragment>
 		 <h1> My Store is building in a </h1>
 		 <Contry/>
-        </React.fragment> ## criei o componente Store e coloquei o outro Componente Contry dentro dele,             assim, quando o browser for ler esse codigo, ira escrever"My Store is building in a Contry"               (como se estivesse em uma tag <h1></h1>)
+        </React.fragment> ## criei o componente Store e coloquei o outro Componente Contry dentro dele,             assim, quando o browser for ler esse codigo, ira escrever "My Store is building in a Contry"               (como se estivesse em uma tag <h1></h1>)
 		 
 
 
