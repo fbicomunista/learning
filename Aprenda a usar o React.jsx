@@ -1,7 +1,7 @@
 
 
 
-    % bem vindo(a), React é uma das principais frameworks de desenvolvimento para sites modernos, junto         com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes         das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina),o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
+    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML e principalmente JavaSript, React é uma das principais frameworks de desenvolvimento para sites modernos, junto         com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes         das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina),o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
     
  
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
@@ -37,9 +37,9 @@
  
  
  
- @ O React usa o JSX como "linguagem", jsx é uma mistura de Html e JavaScript ( no caso se voce for usar    TypeScript ao inves de JavaSript, a sigla será TSX )
+ @ O React usa o JSX como 'linguagem', jsx é uma mistura de Html e JavaScript ( no caso se voce for usar    TypeScript ao inves de JavaSript, a sigla será TSX )
    
- @ Os modulos do JavaScript são chamados pelo React de "Componetes"
+ @ Os modulos do JavaScript são chamados pelo React de 'Componetes'
  
  @ O React nos permite criar componentes de interface do usuário reutilizáveis
 
@@ -57,19 +57,20 @@
 	
    <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React,         podemos chamar quantos Componentes quizermos
    <Segundo></Segundo> ## componente com o nome de Segundo
+
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
- # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma "Tag" especifica que      ira entre os componentes, permitindo que eles se mostrem proximos um do outro
+ # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que      ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada "React.fragment":
  
  
- ReactDOM.render{
+ @ ReactDOM.render{
 	 <React.fragment>
            <Primeiro> 
            <Segundo>
            <Terceiro> 
 	 </React.fragment> ## Agora, todos os 3 Componentes iram se mostrar juntos
 	 
- # voce tambem pode só colocar uma tag com nada dentro de abertura e fechamento para poder colocar os        componenes, asssim, não precisando escrever o React.fragment 
+ # voce tambem pode só colocar uma tag vazia com abertura e fechamento para poder colocar os        componenes, assim, não precisando escrever o React.fragment 
 
          <>
            <Primeiro> 
@@ -81,7 +82,7 @@
  @ existem dois tipos de componentes React, componenetes criados atraves de uma classe e atraves de uma      function
 
 	 
- @ para criar atraves de uma class, o componente deve incluir a extends React.Component, essa função pega    como heraça o React e dá acesso as funçoes do React.Component
+ @ para criar atraves de uma class, o componente deve incluir a extends "React.Component", essa função      pega como herança o React e dá acesso as funçoes do React.Component, sem ela é impossivel criar          Componente do tipo classe
 	 
 	 
  @@ O componete tambem requer um render() como metodo, este método retorna HTML	 
@@ -91,7 +92,7 @@
 		return <h2> Hello, I buy in a Store </H2>
 		
 		
- @ para criar atraves de uma funçao, o nome do Componenente será o nome da função e o seu HTML sera o        bloco   da função
+ @ para criar atraves de uma funçao, o nome do Componenente será o nome da função e o seu HTML sera o        bloco da função
 
 
  # function Store() {
