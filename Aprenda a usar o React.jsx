@@ -8,6 +8,9 @@
  
  @ O comando mais utilizado é o creat-react-app
  
+ 
+ 
+ 
  @ Execute este comando para criar um aplicativo React chamado my-react-app :
  
  # npx create-react-app my-react-app
@@ -47,19 +50,28 @@
 
 # Todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em linguagem JSX/TSX
 	
-   <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React podemos chamar quantos Componentes quizermos
+   <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React, podemos chamar quantos Componentes quizermos
    <Segundo></Segundo> ## componente com o nome de Segundo
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
- # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma "Tag" especifica que ira entre os componentes, permitindo que eles se mostrem          proximos um do outro
+ # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma "Tag" especifica que ira entre os componentes, permitindo que eles se mostrem proximos um do outro
  
  
  ReactDOM.render{
-	 <Fragment.react>
+	 <React.fragment>
            <Primeiro> 
            <Segundo>
            <Terceiro> 
-	 </Fragment.react> ## Agora, todos os 3 Componentes iram se mostrar juntos
+	 </React.fragment> ## Agora, todos os 3 Componentes iram se mostrar juntos
+	 
+ # voce tambem pode só colocar uma tag com nada dentro de abertura e fechamento para poder colocar os componenes, asssim, não precisando escrever o React.fragment 
+
+
+
+
+
+
+
 		 
  # Podemos tambem, mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
 		 
