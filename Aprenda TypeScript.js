@@ -4,7 +4,8 @@ let "fruta": string = "abacaxi"
 const x: number = 10;
 
 
-x = "string" # em JavaScript, esse codigo iria converter a variavel x de number para string (castling), mas em TypeScript isso não é permitido catling
+x = "string" # em JavaScript, esse codigo iria converter a variavel x de number para string (castling), 
+mas em TypeScript isso não é permitido catling
 
 
 # inferencia X annotation
@@ -189,30 +190,8 @@ let tuple:{string: number}; # criei um modelo de tupla
 tuple = {"William", 22}; # criei uma tupla baseada no molde da mesma
 tuple = {"Rodrigo", 43}; # criei outra tupla
 
-console.log(tuple[0].toLowerCase()); # ira pegar o primeiro item da primeira tupla e colocar tudo em maiscula
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(tuple[0].toLowerCase()); # ira pegar o primeiro item da primeira tupla e 
+colocar tudo em maiscula
 
 
 
