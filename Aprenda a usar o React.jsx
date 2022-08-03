@@ -14,7 +14,7 @@
  
  
 	 
- @ Execute este comando para criar um aplicativo React chamado "my-react-app":
+ @ Execute este comando para criar um aplicativo React chamado my-react-app:
  
  # npx create-react-app my-react-app ## criei o meu primeiro projeto chamado de my-react-app
  
