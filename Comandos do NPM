@@ -1,6 +1,6 @@
 
 
-   % Bem vindo(a) ao meu tutorial de comandos gerais do NPM ( Node Package Manager ), ele é de extrema importancia não só para desenvolvedores back-end quando front-end 
+   % Bem vindo(a) ao meu tutorial de comandos gerais do NPM ( Node Package Manager ), ele é de      extrema importancia não só para desenvolvedores back-end quando front-end, saber os seus      principais comando e atributos é de suma importancia
 
 
 
@@ -15,7 +15,7 @@
  @ –save-dev /	-D
 
 
-# Comando / explicação
+ # Comando / explicação
 
 
  @ npm help {COMMAND} / para se obter o manual do comando
