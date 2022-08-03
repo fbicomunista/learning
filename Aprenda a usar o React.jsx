@@ -11,18 +11,16 @@
 
  @ O React usa o JSX como 'linguagem', jJSX é uma mistura de HTML e JavaScript (no caso se voce for usar    TypeScript ao inves de JavaSript, a sigla será TSX, mas não irei usar TypeSript aqui para facilitar o    conhecimneto de React)
    
- @ Os modulos do JavaScript são chamados pelo React de 'Componetes'
+ @ Os modulos do JavaScript são chamados pelo React de 'Componentes'
  
  @ O React nos permite criar componentes de interface do usuário reutilizáveis
 
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
  
- @@ O comando mais utilizado é o creat-react-app
+@@ O comando mais utilizado é o creat-react-app
+ 
  
 
- @
-	 
-	 
  @ Execute este comando para criar um aplicativo React chamado my-react-app:
  
  # npx create-react-app my-react-app ## criei o meu primeiro projeto chamado de my-react-app
@@ -33,14 +31,11 @@
  # cd my-react-app
  
 
- @ execute npm start para executar a aplicação :
+ @ execute npm start para executar a aplicação:
  
  # npm start
  
  
-
- 
-
  @ Primeiro de tudo, precisamos importar o React com o seguinte codigo:
  
  @ import React from 'react' ## importa o React
@@ -57,7 +52,7 @@
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
 			
- # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que        ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada                    "React.fragment":
+ # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que        ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada                    'React.fragment'
  
  
  @ Para renderizar algo usando o React, pricisamos usar uma função: 
@@ -93,7 +88,7 @@
  @ existem dois tipos de componentes React, componenetes criados atraves de uma classe e atraves de uma      function
 
 	 
- @ para criar atraves de uma class, o componente deve incluir a extends "React.Component", essa função      pega como herança o React e dá acesso as funçoes do React.Component, sem ela é impossivel criar          Componente do tipo classe
+ @ para criar atraves de uma class, o componente deve incluir a extends 'React.Component', essa função      pega como herança o React e dá acesso as funçoes do React.Component, sem ela é impossivel criar          Componente do tipo classe
 	 
 	 
  @@ O componete tambem requer um render(), este método retorna HTML	 
@@ -113,7 +108,7 @@
  @ para exibir o Componente Store terá que criar uma variavel/constante atribuindo a ela a raiz e depois    renderiza-la com seguinte codigo:	
 
 	
- # const root = ReactDOM.createRoot(document.getElementById("root"))
+ # const root = ReactDOM.createRoot(document.getElementById('root'))
    root.render(<Car/>)
 	
 	       
@@ -127,8 +122,8 @@
   	return <h2> I am a {props.color} Store </h2>
   }
 
-  const root = reactDOM.createRoot(document.getElementById("root"))
-  root.render(<Store color="red"/>
+  const root = reactDOM.createRoot(document.getElementById('root'))
+  root.render(<Store color='red'/>
   )
 
  
