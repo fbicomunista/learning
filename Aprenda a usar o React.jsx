@@ -55,21 +55,26 @@
 
    
  # Depois iremos precisar saber como chamar o React para fazer algo
-
- # ReactDOM.render() ## Essa função sempre ira receber dois argumentos, um codigo HTML e um elemento HTML
- 
- 
- @ .render{} ## A função .render, ira dizer para o React renderizar algo {mostrar) o que estiver entre       { }
 									 
- # Todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em linguagem      JSX/TSX
+ # Todo componente começa com letra maiuscula e é parecido com uma tag HTML, mas é escrito em linguagem      JSX/TSX
 	
    <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React,         podemos chamar quantos Componentes quizermos
    <Segundo></Segundo> ## componente com o nome de Segundo
 
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
-									  
- # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que      ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada "React.fragment":
+			
+ # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que        ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada                    "React.fragment":
+ 
+ 
+ @ Para renderizar algo usando o React, pricisamos usar uma função: 
+ 
+ @@ ReactDOM.render() ## Essa função sempre ira receber dois argumentos, um codigo HTML e um elemento         HTML
+ 
+ 
+ @@ A função .render{}, ira dizer para o React renderizar algo {mostrar) o que estiver entre { }
+ 
+ 
  
  
  @ ReactDOM.render{
