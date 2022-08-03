@@ -1,21 +1,24 @@
 
 
 
-    % bem vindo(a), React é uma das principais frameworks de desenvolvimento, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondiidas" na pagina), VueJS e React que usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e correção de bug na pagina 
+    % bem vindo(a), React é uma das principais frameworks de desenvolvimento para sites modernos, junto com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina), VueJS e React que usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e correção de bug na pagina visto que todo Componente retorna um HTML. 
     
  
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
  
  @ O comando mais utilizado é o creat-react-app
  
+ @
+	 
+ @
  
  
+	 
+ @ Execute este comando para criar um aplicativo React chamado "my-react-app":
  
- @ Execute este comando para criar um aplicativo React chamado my-react-app :
+ # npx create-react-app my-react-app ## criei o meu primeiro projeto chamado de my-react-app
  
- # npx create-react-app my-react-app
- 
- @ Execute este comando para mover para o my-react-app o dretório que voce vai usar :
+ @ Execute este comando para mover para o my-react-app o dretório que voce vai usar:
  
  # cd my-react-app
  
@@ -38,7 +41,7 @@
  
  @ O React nos permite criar componentes de interface do usuário reutilizáveis
 
- @ Primeiro de tudo, precisamos importar o React com o seguinte codigo :
+ @ Primeiro de tudo, precisamos importar o React com o seguinte codigo:
  
  @ import React from 'react' ## importa o React
    import ReactDom from 'react-dom' ## importa uma parte do React que ira manipular a arvore DOM
