@@ -70,31 +70,38 @@
            <Primeiro> 
            <Segundo>
            <Terceiro> 
-        </> ## ira surtir o mesmo efeito
+         </> ## ira surtir o mesmo efeito
 
 	 
  @ existem dois tipos de componentes React, componenetes criados atraves de uma classe e atraves de uma function
 
 	 
-@ para criar atraves de uma class, o componente deve incluir a extends React.Component, essa função pega como heraça o React e dá acesso as funçoes do React.Component
+ @ para criar atraves de uma class, o componente deve incluir a extends React.Component, essa função pega como heraça o React e dá acesso as funçoes do React.Component
 	 
 	 
-@@ O componete tambem requer um render() como metodo, este método retorna HTML	 
+ @@ O componete tambem requer um render() como metodo, este método retorna HTML	 
 
-# class store extends React.Componenet {
+ # class store extends React.Componenet {
 	render{
 		return <h2> Hello, I buy in a Store </H2>
 		
 		
-@ para criar atraves de uma funçao, o nome do Componenente será o nome da função e o seu HTML sera o bloco   da função
+ @ para criar atraves de uma funçao, o nome do Componenente será o nome da função e o seu HTML sera o bloco   da função
 
 
-# function Car() {
+ # function Store() {
 	return <h2>, hello, i buy a store </h2>}
 	
+
+ @ para exibir o Componente Store terá que criar uma variavel/constante atribuindo a ela a raiz e depois renderiza-la com seguinte codigo:	
+
+	
+ @ const root = ReactDOM.createRoot(document.getElementById("root"))
+   root.render(<Car/>)
 	
 	
-	
+	 
+	 
 	
 	
  # Podemos tambem mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
