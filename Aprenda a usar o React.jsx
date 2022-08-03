@@ -100,14 +100,37 @@
    root.render(<Car/>)
 	
 	       
-# Os componenetes tambem podem ser passados como props (propriedades), props são parecidos com argumentos de uma função e voce os envia para o componente como atributos
-	
-	 
-	 
-	
-	
- # Podemos tambem mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
+@ Os componenetes tambem podem ser passados como props (propriedades), props são parecidos com argumentos de uma função e voce os envia para o componente como atributo
+	   
+
+@@ Podemos tambem mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
 		 
+
+# function Store(props) {
+	return <h2> I am a {props.color} Store </h2>
+}
+
+  const root = reactDOM.createRoot(document.getElementById("root"))
+  root.render(<Store color="red"/>
+)
+
+ 
+ @ Podemos nos referir a componentes dentro de outros componentes
+
+ 
+ # function Store() {
+return <h2> I am a Store! </h2>
+ }
+  
+ function Contry() {
+	 return (
+	<React.fragement>
+		 <h1> Store is building in </h1>
+		 <
+
+
+
+
 	ReactDOM.render{
 	 <Fragment.react>
            <Primeiro text = Agora meu nome é maicon> 
