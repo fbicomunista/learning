@@ -113,7 +113,8 @@
 
    @ voce tambem pode criar uma estrutura de repetição com o switch
    
-   @ a estrutura switch tem uma sintaxe parecida com a if e else, voce digita switch, a variavel ou constante que ira ser usada e para cada condição feita dentro do case de variavel, ele ira continuar com o echo 
+   @ a estrutura switch tem uma sintaxe parecida com a if e else, voce digita switch, a variavel ou constante que ira ser usada e para cada condição feita
+   dentro do case de variavel, ele ira continuar com o echo 
    
    
    ## Obs: break serve para indicar que caso o codigo de cima seja usado, ele ira encerrar o processo quando chegar no break
