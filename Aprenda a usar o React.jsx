@@ -1,9 +1,14 @@
 
 
 
-    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML e principalmente JavaScript,         React é uma das principais frameworks de desenvolvimento para sites modernos, junto com o         angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes               das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina), o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
+    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML, CSS e principalmente JavaScript,         React é uma das principais frameworks de desenvolvimento para sites modernos, junto com o         angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes               das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina), o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
+
     
- 
+ @ {/*  */} # Assim que se escreve um comentario em React
+
+ # {/* Ola! eu sou um comentario em React ;) */} 
+
+
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
  
  @@ O comando mais utilizado é o creat-react-app
@@ -51,8 +56,11 @@
    
  # Depois iremos precisar saber como chamar o React para fazer algo
 
- @ ReactDOM.render{} ## A função .render, ira dizer para o React renderizar algo {mostrar) o que estiver    entre {}
-
+ # ReactDOM.render() ## Essa função sempre ira receber dois argumentos, um codigo HTML e um elemento HTML
+ 
+ 
+ @ .render{} ## A função .render, ira dizer para o React renderizar algo {mostrar) o que estiver entre       { }
+									 
  # Todo componente começa com letra maiuscula e é parecido com uma tag HTML mas é escrito em linguagem      JSX/TSX
 	
    <Primeiro></Primeiro> ## Primeiro é um modulo JavaScript e como todo modulo é componente em React,         podemos chamar quantos Componentes quizermos
@@ -60,6 +68,7 @@
 
    <Terceiro></Terceiro> ## componentes com o nome de Terceiro
 
+									  
  # Porem, não podemos colocar Componetes de maneira proxima, para isso usamos uma Tag especifica que      ira entre os componentes, permitindo que eles se mostrem proximos um do outro chamada "React.fragment":
  
  
@@ -87,10 +96,10 @@
 	 
  @@ O componete tambem requer um render(), este método retorna HTML	 
 
- # class Store extends React.Componenet {
+ # class Store extends React.Component {
 	render{
 		return <h2> Hello, I buy in a Store </H2>
-		
+   }	
 		
  @ para criar atraves de uma funçao, o nome do Componenente será o nome da função e o seu HTML sera o        bloco da função
 
@@ -106,7 +115,7 @@
    root.render(<Car/>)
 	
 	       
- @ Os componenetes tambem podem ser passados como props (propriedades), props são parecidos com              argumentos de uma função e voce os envia para o componente como atributo
+ @ Os componenetes tambem podem ser passados como props (propriedades), props são parecidos com              argumentos de uma função e voce os envia para o componente como se fossem atributos CSS
 	   
 
 @@ Podemos tambem mudar seu conteudo com as propriedades, como se fosse atributos CSS no componente 	 
@@ -124,16 +133,17 @@
  @ Podemos nos referir a componentes dentro de outros componentes
 
  
- # function Store() {
-   	return <h2> I am a Store! </h2> ## criei o Componente Store
- }
+ # function Contry() {
+   	return <h2> I am a Store! </h2> 
+ } ## criei o componente Contry
   
-   function Contry() {
+   function Store() {
    	return (
 	<React.fragment>
-		 <h1> My Store is building in </h1>
-		 <Store/>
-        </React.fragment> ## criei o componente Contry e coloquei o outro Componente Store dentro dele 
+		 <h1> My Store is building in a </h1>
+		 <Contry/>
+        </React.fragment> ## criei o componente Store, coloquei o outro Componente Contry dentro dele,           assim, o browser ira ler esse codigo escrevendo "My Store is building in
+		 Contry
 
 
 
@@ -149,9 +159,7 @@
 		 
 		 
 		 
- @ {/*  */} # assim que se escreve um comentario em React
 
- # {/* Ola! eu sou um comentario */} 
 
 
 
