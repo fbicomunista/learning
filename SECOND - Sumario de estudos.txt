@@ -1,7 +1,8 @@
 
   Olá! seja muito bem vindo(a) ao meu repositorio!
 
-  Se é a sua primeira vez aqui, saiba que este pequeno arquivo é só um sumario das minhas        marcaçoes de conteudo que eu padronizei ao longo dos meus estudos em Programação, recomendo que baixe este arquivo para que sempre que se esqueça de alguma sintaxe, volte aqui para entender o que ela significa, fique com o sumario logo abaixo :  
+  Se é a sua primeira vez aqui, saiba que este pequeno arquivo é só um sumario das minhas 
+  marcaçoes de conteudo que eu padronizei ao longo dos meus estudos em Programação, recomendo     que baixe este arquivo para que sempre que se esqueça de alguma sintaxe, volte aqui para         enten-der o que ela significa, fique com o sumario logo abaixo :  
 
 
   % = Titulo
