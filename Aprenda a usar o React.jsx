@@ -142,8 +142,8 @@
 	<React.fragment>
 		 <h1> My Store is building in a </h1>
 		 <Contry/>
-        </React.fragment> ## criei o componente Store, coloquei o outro Componente Contry dentro dele,           assim, o browser ira ler esse codigo escrevendo "My Store is building in
-		 Contry
+        </React.fragment> ## criei o componente Store e coloquei o outro Componente Contry dentro dele,             assim, quando o browser for ler esse codigo, ira escrever"My Store is building in a Contry"               (como se estivesse em uma tag <h1></h1>)
+		 
 
 
 
