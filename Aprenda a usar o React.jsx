@@ -107,7 +107,7 @@
 		 
 
 # function Store(props) {
-	return <h2> I am a {props.color} Store </h2>
+     return <h2> I am a {props.color} Store </h2>
 }
 
   const root = reactDOM.createRoot(document.getElementById("root"))
@@ -119,15 +119,15 @@
 
  
  # function Store() {
-return <h2> I am a Store! </h2>
+     return <h2> I am a Store! </h2> ## criei o Componente Store
  }
   
- function Contry() {
-	 return (
-	<React.fragement>
-		 <h1> Store is building in </h1>
-		 <
-
+   function Contry() {
+     return (
+	<React.fragment>
+		 <h1> My Store is building in </h1>
+		 <Store/>
+        </React.fragment> ## criei o componente Contry e coloquei o outro Componente Store dentro dele 
 
 
 
