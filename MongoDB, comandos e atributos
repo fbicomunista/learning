@@ -45,61 +45,60 @@ todos os arquivos dentro daquela colletions repassada anterioramente,
 o comando "pretty()" server para mostrar esses dados em forma vertical 
 (melhora a visibilidade do mesmo)
 
-db.pessoas.find({ esta_empregado: true }) # ira filtrar todos os dados
+@ db.pessoas.find({ esta_empregado: true }) # ira filtrar todos os dados
 da qual contem esse atributo passado
 
-db.pessoas.find({ esta_empregado: true }).count() # ira contar quantas 
+@ db.pessoas.find({ esta_empregado: true }).count() # ira contar quantas 
 pessoas tem esses atributos na colletions
 
-db.pessoas.findOne({ nome: "Joao"}) # ira mostrar qual dados do banco 
+@ db.pessoas.findOne({ nome: "Joao"}) # ira mostrar qual dados do banco 
 de dados satisfaz o atributo passado (se tiver mais de um dados do 
 	qual satisfazer a sentença, ele só ira mostrar um)
 
-db.pessoas.find({ idade: { $gt: 30 }}) # gt significa "greater than" 
+@ db.pessoas.find({ idade: { $gt: 30 }}) # gt significa "greater than" 
 (maior que), logo, ele ira encontrar todos os dados da qual a idade 
 seja maior que 30 
 
-db.pessoas.find({ idade: { $gte: 30 }}) # gte significa "greater than"
+@ db.pessoas.find({ idade: { $gte: 30 }}) # gte significa "greater than"
 and igual "(maior que e igual), logo, ele ira encontrar todos os" 
 "dados" 
 da qual a idade seja maior que e igual a 30 
 
-db.pessoas.find({ idade: { $lt: 25 }}) # significa "less than" (maior 
+@ db.pessoas.find({ idade: { $lt: 25 }}) # significa "less than" (maior 
 que e igual), logo, ele ira encontrar todos os dados da qual a 
 idade seja menor que 25 
 
-db.pessoas.find({ idade: { $lte: 25 }}) # significa "less than and"
+@ db.pessoas.find({ idade: { $lte: 25 }}) # significa "less than and"
 igual "(maior que e igual), logo, ele ira encontrar todos os" 
 "dados da qual a idade seja menor que e igual a 25" 
 
-db.pessoas.updateOne({ nome: "joao"}, { $set: { esta_empregado: true}})
-# a função "updateOne()" recebe um objeto como parametro do qual o 
+@ db.pessoas.updateOne({ nome: "joao"}, { $set: { esta_empregado: true}}) # a função "updateOne()" recebe um objeto como parametro do qual o 
 seu primeiro item é qual atributo dos dados ira ser mudado, depois 
 junto com "$set:" e dentro de set, ira ser colocado qual atributo 
 quer mudar do dado 
 
-db.pessoas.updateMany({}, {$set: { salario: 5000 }}) # ira atualizar 
+@ db.pessoas.updateMany({}, {$set: { salario: 5000 }}) # ira atualizar 
 todos os atributo dos dados para salario 5000
 
-db.pessoas.deleteOne({ name: "Josias"})
+@ db.pessoas.deleteOne({ name: "Josias"})
 
-db.pessoas.deleteMany({ name: "Josias"})
+@ db.pessoas.deleteMany({ name: "Josias"})
 
-db.pessoas.updateOne({ nome: "Matheus"}, { $inc: { salario: 1000 }) 
+@ db.pessoas.updateOne({ nome: "Matheus"}, { $inc: { salario: 1000 }) 
 # a função inc (increment), incrementa 1000 no valor de salario
 
-db.pessoas.createIndex({ "nome": 1 }) # cria um index nome
+@ db.pessoas.createIndex({ "nome": 1 }) # cria um index nome
 
-db.pessoas.getIndexes() # ira mostrar uma lista na vertical de 
+@ db.pessoas.getIndexes() # ira mostrar uma lista na vertical de 
 indexes
 
-db.pessoas.explain().find{{ nome: "Joao" }}
+@ db.pessoas.explain().find{{ nome: "Joao" }}
 
-db.pessoas.dropIndex("Carlos") # exclui o documento do indice
+@ db.pessoas.dropIndex("Carlos") # exclui o documento do indice
 
-db.pessoas.drop() # ira excluir a colletion pessoas
+@ db.pessoas.drop() # ira excluir a colletion pessoas
 
-db.pessoasData.dropDatabase() # exclui a base de dados "pessoasData"
+@ db.pessoasData.dropDatabase() # exclui a base de dados "pessoasData"
 
 
 
