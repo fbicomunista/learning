@@ -4,9 +4,10 @@
   % Bem vindo(a) ao meu tutorial dos comandos da base de dados não relacional, MondoDB é uma base de dados que utiliza o JSON como manipulação de dados, por ser assim, é uma base de dados extremamente facil e rapida de se utiizar, assim sendo, se voce já tem familiaridade com JavaScript não tera dificuldade em aprender MongoDB
 
 
+@ Antes de começar a falar sobre o MongoDB uma coisa extremamente importante de se falar é o vocabulario que as base de dados relacionais e não relacionais tem de diferentes um do outro para definir a mesma hierarquia de estrutura de dados
 
 
-SQL / MongoDB
+ SQL / MongoDB
 
 tables = colletions
 rows = documents 
