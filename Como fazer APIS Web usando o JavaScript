@@ -1,6 +1,7 @@
 
 
-    dicionario sobre algum elementos de uma API:
+    # bem vindo(a) ao meu tutorial de como criar API web, a dois termos muito falados sobre APIS que são as API REST e a API SOAP, 
+    enquanto a primeira segue um paradigma recomendado pela w3 a 
 
 @ readyState # contém o status do XMLHttpRequest
 
