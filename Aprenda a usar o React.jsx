@@ -1,7 +1,7 @@
 
 
 
-    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML e principalmente JavaSript, React é uma das principais frameworks de desenvolvimento para sites modernos, junto         com o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes         das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina),o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilitaria a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
+    % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML e principalmente JavaScript,         React é uma das principais frameworks de desenvolvimento para sites modernos, junto com o         angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes               das quais voce teria que pedir novamente uma requisição já estariam "escondidas" na pagina), o React       por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a organização e           correção de bug na pagina visto que todo Componente retorna um HTML. 
     
  
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
@@ -85,9 +85,9 @@
  @ para criar atraves de uma class, o componente deve incluir a extends "React.Component", essa função      pega como herança o React e dá acesso as funçoes do React.Component, sem ela é impossivel criar          Componente do tipo classe
 	 
 	 
- @@ O componete tambem requer um render() como metodo, este método retorna HTML	 
+ @@ O componete tambem requer um render(), este método retorna HTML	 
 
- # class store extends React.Componenet {
+ # class Store extends React.Componenet {
 	render{
 		return <h2> Hello, I buy in a Store </H2>
 		
