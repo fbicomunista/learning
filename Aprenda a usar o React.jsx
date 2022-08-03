@@ -96,9 +96,11 @@
  @ para exibir o Componente Store terá que criar uma variavel/constante atribuindo a ela a raiz e depois renderiza-la com seguinte codigo:	
 
 	
- @ const root = ReactDOM.createRoot(document.getElementById("root"))
+ # const root = ReactDOM.createRoot(document.getElementById("root"))
    root.render(<Car/>)
 	
+	       
+# Os componenetes tambem podem ser passados como props (propriedades), props são parecidos com argumentos de uma função e voce os envia para o componente como atributos
 	
 	 
 	 
