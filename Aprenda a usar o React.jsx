@@ -1,23 +1,27 @@
 
-% bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML, CSS e principalmente               JavaScript, React é uma das principais frameworks de desenvolvimento para sites modernos, junto com       o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes             das quais voce teria que pedir novamente uma requisição para o server já estariam "escondidas" na         pagina), o React por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a           organização e correção de bug na pagina, visto que todo Componente retorna somente um HTML. 
+  % bem vindo(a), Esse tutorial exige que voce já saiba o basico de HTML, CSS e principalmente               JavaScript, React é uma das principais frameworks de desenvolvimento para sites modernos, junto com       o angular que leva o conceito de single page (pagina unica, o site todo é carregado e partes             das quais voce teria que pedir novamente uma requisição para o server já estariam "escondidas" na         pagina), o React por sinal, usa a ideia de Componentes em um site, conceito esse que facilita a           organização e correção de bug na pagina, visto que todo Componente retorna somente um HTML. 
 
     
- @ {/*  */} # Assim que se escreve um comentario em React
+ @ {/*  */} # Assim que se escreve um comentario em React entre {/*  */}
 
  # {/* Ola! eu sou um comentario em React ;) */} 
 
  # {/* Oi! eu tambem sou um comentario em React, prazer :) */} 
 
 
+ @ O React usa o JSX como 'linguagem', jJSX é uma mistura de HTML e JavaScript (no caso se voce for usar    TypeScript ao inves de JavaSript, a sigla será TSX, mas não irei usar TypeSript aqui para facilitar o    conhecimneto de React)
+   
+ @ Os modulos do JavaScript são chamados pelo React de 'Componetes'
+ 
+ @ O React nos permite criar componentes de interface do usuário reutilizáveis
+
  @ existem varios modos para voce criar um projeto em React usando o nodeJS
  
  @@ O comando mais utilizado é o creat-react-app
  
+
  @
 	 
- @
- 
- 
 	 
  @ Execute este comando para criar um aplicativo React chamado my-react-app:
  
@@ -34,19 +38,8 @@
  # npm start
  
  
+
  
- 
- 
- 
- 
- 
- 
- 
- @ O React usa o JSX como 'linguagem', jsx é uma mistura de Html e JavaScript ( no caso se voce for usar    TypeScript ao inves de JavaSript, a sigla será TSX )
-   
- @ Os modulos do JavaScript são chamados pelo React de 'Componetes'
- 
- @ O React nos permite criar componentes de interface do usuário reutilizáveis
 
  @ Primeiro de tudo, precisamos importar o React com o seguinte codigo:
  
@@ -75,21 +68,25 @@
  @@ A função .render{}, ira dizer para o React renderizar algo {mostrar) o que estiver entre { }
  
  
- 
- 
- @ ReactDOM.render{
+  @ ReactDOM.render{
 	 <React.fragment>
-           <Primeiro> 
-           <Segundo>
-           <Terceiro> 
+		 
+         	<Primeiro> 
+           	<Segundo>
+           	<Terceiro> 
+		 
 	 </React.fragment> ## Agora, todos os 3 Componentes iram se mostrar juntos
 	 
- # voce tambem pode só colocar uma tag vazia com abertura e fechamento para poder colocar os        componenes, assim, não precisando escrever o React.fragment 
+   }	
+	  
+ # voce tambem pode só colocar uma tag vazia com abertura e fechamento para poder colocar os        componentes, assim, não precisando escrever o React.fragment 
 
          <>
-           <Primeiro> 
-           <Segundo>
-           <Terceiro> 
+	 
+         	<Primeiro> 
+          	<Segundo>
+           	<Terceiro> 
+	 
          </> ## ira surtir o mesmo efeito
 
 	 
