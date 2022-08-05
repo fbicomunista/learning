@@ -7,7 +7,12 @@
   é um site que permite que voce faça o envio do codigo já feito para ficar em seus servidores guardados 
   
   
-  @ git init # comando que se inicia o 
+ @ git -v ## comando que serve para mostrar todas as dependencias instaladas da aplicação,
+ (dependencias são todos os "mini softwares" necessarios para que o software do GIT em si funcione, semelhante a os assents de um jogo)
+ 
+ @ git -version ## comando que mostra a versão atual que esta sendo usada do GIT
+ 
+ @ git init ## comando que se inicia o 
   
   
   
