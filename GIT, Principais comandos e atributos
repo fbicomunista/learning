@@ -7,6 +7,13 @@
   é um site que permite que voce faça o envio do codigo já feito para ficar em seus servidores guardados 
   
   
+  @ todos os comandos são compostos de seu nome e um atributo
+  
+  'nome do comando' / - 'alguma letra ou palavra'  
+  
+ 
+ @ Comandos:
+  
  @ git -v ## comando que serve para mostrar todas as dependencias instaladas da aplicação,
  (dependencias são todos os "mini softwares" necessarios para que o software do GIT em si funcione, semelhante a os assents de um jogo)
  
