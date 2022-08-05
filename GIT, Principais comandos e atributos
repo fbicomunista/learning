@@ -1,5 +1,5 @@
  
- % Bem vindo(a), GIT é um dos principais ecosistemas de versionamento que existem no mercado atual,
+    % Bem vindo(a), GIT é um dos principais ecosistemas de versionamento que existem no mercado atual,
   ele serve para fazer pequenos "checkpoints" do codigo já feito, 
   permitindo que se veja com mais detalhes todo o processo de desenvolvimento e alteração durante todo o desenvolimento do codigo,
   cuidado para não confundir GIT com o site de versionamento Github,
@@ -7,23 +7,27 @@
   é um site que permite que voce faça o envio do codigo já feito para ficar em seus servidores guardados 
   
   
-  @ todos os comandos são compostos de seu nome e um atributo
+@ todos os comandos são compostos de seu nome e um atributo
   
-  'nome do comando' / - 'alguma letra ou palavra'  
-  
+@ 'nome do comando' / - 'alguma letra ou palavra'  
  
- @ Comandos:
-  
- @ git -v ## comando que serve para mostrar todas as dependencias instaladas da aplicação,
+ 
+# 
+
+
+@ Principais Comandos:
+ 
+ 
+@ git -v ## comando que serve para mostrar todas as dependencias instaladas da aplicação,
  (dependencias são todos os "mini softwares" necessarios para que o software do GIT em si funcione, semelhante a os assents de um jogo)
  
- @ git -version ## comando que mostra a versão atual que esta sendo usada do GIT
+@ git -version ## comando que mostra a versão atual que esta sendo usada do GIT
  
- @ git init ## comando que se inicia o 
+@ git init ## comando que faz a inicialização do repositorio da pasta selecionada
   
+@ clear ## ira limpar o historico de comando já feito
   
-  
-  
+@
   
   
   
