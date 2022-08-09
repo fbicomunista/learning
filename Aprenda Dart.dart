@@ -32,6 +32,8 @@ void main(){
 		print(largura ?? 10.0); # a largura padrao ira ser 10.0 caso só seja digitado só a string texto 
 
 
+			
+			
 
 	string nome = "Lojinha do Daniel";
 	double num2 = 20.0;
