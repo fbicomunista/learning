@@ -1,3 +1,4 @@
+
 let "fruta": string = "abacaxi"
 
 
@@ -198,3 +199,5 @@ colocar tudo em maiscula
 
 
 }
+
+
