@@ -194,10 +194,6 @@ tuple = {"Rodrigo", 43}; # criei outra tupla
 console.log(tuple[0].toLowerCase()); # ira pegar o primeiro item da primeira tupla e 
 colocar tudo em maiscula
 
-
-
-
-
 }
 
 
